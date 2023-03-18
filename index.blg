@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: index.aux
+A level-1 auxiliary file: isogeny.aux
+A level-1 auxiliary file: pre_digital_signature.aux
+A level-1 auxiliary file: ds_on_isogeny.aux
+A level-1 auxiliary file: security_of_ds_on_isogeny.aux
+A level-1 auxiliary file: algorithmic_aspect.aux
+A level-1 auxiliary file: parameter_sizes.aux
+A level-1 auxiliary file: vocab.aux
+A level-1 auxiliary file: footer.aux
+The style file: plain.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for "broker@constructing"
+Warning--I didn't find a database entry for ""
+Warning--empty journal in solinas
+You've used 20 entries,
+            2118 wiz_defined-function locations,
+            625 strings with 7011 characters,
+and the built_in function-call counts, 7404 in all, are:
+= -- 778
+> -- 275
+< -- 7
++ -- 114
+- -- 90
+* -- 504
+:= -- 1173
+add.period$ -- 67
+call.type$ -- 20
+change.case$ -- 105
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 296
+empty$ -- 608
+format.name$ -- 90
+if$ -- 1593
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 20
+newline$ -- 103
+num.names$ -- 40
+pop$ -- 106
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 210
+stack$ -- 0
+substring$ -- 576
+swap$ -- 83
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 80
+warning$ -- 1
+while$ -- 83
+width$ -- 22
+write$ -- 226
+(There were 3 warnings)

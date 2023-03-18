@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{efficient}
+Craig Costello, Patrick Longa, and Michael Naehrig.
+\newblock Efficient algorithms for supersingular isogeny diffie-hellman.
+\newblock In {\em Annual International Cryptology Conference}, pages 572--601.
+  Springer, 2016.
+
+\bibitem{jao2014towards}
+Luca De~Feo, David Jao, and J{\'e}r{\^o}me Pl{\^u}t.
+\newblock Towards quantum-resistant cryptosystems from supersingular elliptic
+  curve isogenies.
+\newblock {\em Journal of Mathematical Cryptology}, 8(3):209--247, 2014.
+
+\bibitem{jalali2017efficient}
+Amir Jalali, Reza Azarderakhsh, and Mehran Mozaffari~Kermani.
+\newblock Efficient implementation of supersingular isogeny-based
+  diffie-hellman key exchange on arm.
+\newblock 2017.
+
+\bibitem{undeniable}
+David Jao and Vladimir Soukharev.
+\newblock Isogeny-based quantum-resistant undeniable signatures.
+\newblock In {\em International Workshop on Post-Quantum Cryptography}, pages
+  160--179. Springer, 2014.
+
+\bibitem{blind}
+M~Seshadri Srinath and Venkatachalam Chandrasekaran.
+\newblock Isogeny-based quantum-resistant undeniable blind signature scheme.
+\newblock {\em IACR Cryptology ePrint Archive}, 2016:148, 2016.
+
+\bibitem{base}
+Youngho Yoo, Reza Azarderakhsh, Amir Jalali, David Jao, and Vladimir Soukharev.
+\newblock A post-quantum digital signature scheme based on supersingular
+  isogenies.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 163--181. Springer, 2017.
+
+\end{thebibliography}

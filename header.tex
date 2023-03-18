@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper]{book}
+%\documentclass[12pt]{book}
+\let\latinrm\mathrm
+
+\usepackage{multicol}
+
+% \usepackage[font=small,labelfont=bf]{caption}
+\usepackage{caption}
+% \captionsetup[figure]{font=small}
+\captionsetup[figure]{font=footnotesize}
+
+\usepackage{amsthm,amsmath,amssymb,mathtools}
+%\usepackage{relsize}
+%\usepackage{lipsum}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+%\usepackage[noend]{algpseudocode}
+\usepackage{tikz-cd}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{cite}
+%\renewcommand{\algorithmiccomment}[1]{$\triangleright$ #1}
+%\usetikzlibrary{matrix}
+ %\usepackage[demo]{graphicx}
+% \usepackage{caption}
+\usepackage{enumerate}
+\usepackage[inline,shortlabels]{enumitem}  
+
+
+\linespread{1.5} 
+
+
+
+
+
+
+
+%\input{glossaries}
+
+\usepackage{xepersian}
+\settextfont{XBZar}
+\setdigitfont{XBZar}
+
+%\title{امضای دیجیتال مقاوم کوانتومی بر اساس همسانی های بین خم های سوپرسینگولار}
+%\author{مصطفی قربانی
+%	\\[1cm]{ استاد راهنما: دکتر حسن دقیق}}
+%\author{مصطفی قربانی}
+\date{}
+
+
+\theoremstyle{plain}
+\newtheorem{theorem}{قضیه}
+\newtheorem{refproof}{اثبات}
+\newtheorem{lemma}{لم}
+\newtheorem{proposition}{گزاره}
+\theoremstyle{definition}
+\newtheorem{definition}{تعریف}[section]
+\newtheorem{example}{مثال}
+\newtheorem{prob}{سوال}
+\theoremstyle{remark}
+\newtheorem{corollary}{نتیجه}
+\newtheorem{remark}{توجه}
+
+% ---------------- for make 4th depth section --------------------------------
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+% ----------------------------------------------------------------------------
+
+\newcommand\englishgloss[2]{\lr{#1}\dotfill#2\\}
+\newcommand\persiangloss[2]{#1\dotfill\lr{#2}\\}
+
+\begin{document}
+%\maketitle
+%\tableofcontents
+%\listoffigures
+%\listoftables	
+%\chapter{پیش نیازها}\label{prerequesties}	
+%\begin{theorem}\end{theorem}
+\onecolumn

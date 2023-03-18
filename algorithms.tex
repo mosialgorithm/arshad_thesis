@@ -1,0 +1,181 @@
+\documentclass[12pt,a4paper]{article}
+%\documentclass[12pt]{book}
+\let\latinrm\mathrm
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{lipsum}
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage[noend]{algpseudocode}
+\usepackage{tikz-cd}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{cite}
+\renewcommand{\algorithmiccomment}[1]{$\triangleright$ #1}
+\usetikzlibrary{matrix}
+ %\usepackage[demo]{graphicx}
+% \usepackage{caption}
+
+
+\linespread{1.5} 
+
+%\usepackage{xepersian}
+%\settextfont{XBZar}
+%\setdigitfont{XBZar}
+
+\title{امضای دیجیتال مقاوم کوانتومی بر اساس همسانی های بین خم های سوپرسینگولار}
+\author{مصطفی قربانی
+	\\[1cm]{ استاد راهنما: دکتر حسن دقیق}}
+%\author{مصطفی قربانی}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+% ===========================================================================================
+% Algorithm 1 
+% ===========================================================================================
+\begin{algorithm}\label{algorithm_1}
+	\caption{Prover : $P_{OE}$ on input $(x,w)$}
+	%\begin{flushleft}
+	%\resetlatinfont
+	\begin{algorithmic}[1]
+		\State // Create t.c proofs and hash each response
+		\For{ $ i=1 \ \textbf{to} \ t $ }
+			\State $com_i \leftarrow P_{\Sigma}^{1}(x,w)$
+			\For{ $j=1 \ \textbf{to} \ c $ }
+				\State $ch_{i,j} \leftarrow_{R} N_{ch} \setminus \{ch_{i,1} , \cdots , ch_{i,j-1} \}$
+				\State $resp_{i,j} \leftarrow P_{\Sigma}^2 (x,w,com,ch_{i,j})$
+				\State $h_{i,j} \leftarrow G(resp_{i,j})$ 
+			\EndFor 
+		\EndFor
+		
+		\State // Get challenge by hashing
+		\State $ J_1 \parallel \cdots \parallel j_t \leftarrow H(x(com_i)_i , (ch_{i,j})_{i,j} , (h_{i,j})_{i,j}   ) $ \Comment{Get challenge by hashing}
+		
+		\State // return proof
+		\State \textbf{return} $\pi \leftarrow ( (com_i)_i , (ch_{i,j})_{i,j} , (h_{i,j})_{i,j} , (resp_{i,J_i})_i  )$ \Comment{return proof}
+	\end{algorithmic}
+	%\end{flushleft}
+\end{algorithm}
+
+% ===========================================================================================
+% ===========================================================================================
+
+
+
+% ===========================================================================================
+% Algorithm 2 
+% ===========================================================================================
+\begin{algorithm}\label{algorithm_2}
+	\caption{Verifier : $V_{OE}$ on input $(x,\pi) $
+		where \newline
+		\qquad $\pi =  ( (com_i)_i , (ch_{i,j})_{i,j} , (h_{i,j})_{i,j} , (resp_{i,J_i})_i  )$
+		}
+	%\begin{flushleft}
+	%\resetlatinfont
+	\begin{algorithmic}[1]
+		\State // Compute the challenge hash
+		\For{ $ i=1 \ \textbf{to} \ t $ }
+		\State $ \textbf{check} ch_{i,1} , \cdots ch_{i,m} pairwise distinct $
+		\State $ \textbf{check} h_{i,J_i} = G(resp_i) $
+		\State $ \textbf{check} V_{\Sigma}(x,com_i,ch_{i,J_i} , resp_i) = 1 $
+		\EndFor
+		\If{ all checks succeed} 
+		\textbf{return} 1
+		\EndIf
+		
+	\end{algorithmic}
+	%\end{flushleft}
+\end{algorithm}
+
+% ===========================================================================================
+% ===========================================================================================
+
+% ===========================================================================================
+% Algorithm 3 
+% ===========================================================================================
+\begin{algorithm}\label{algorithm_3}
+	\caption{ $ KeyGen(\lambda) $}
+	%\begin{flushleft}
+	%\resetlatinfont
+	\begin{algorithmic}[1]
+		\State Pick a random point S of order $\ell_A^{e_A}$
+		\State Compute the isogeny $\phi : E \rightarrow E / \langle S \rangle $
+		\State $ pk \leftarrow (E / \langle S \rangle , \phi(P_B) , \phi(Q_B)) $
+		\State $sk \leftarrow S$
+		\State \textbf{return} $(pk,sk)$
+		
+	\end{algorithmic}
+	%\end{flushleft}
+\end{algorithm}
+
+% ===========================================================================================
+% ===========================================================================================
+
+% ===========================================================================================
+% Algorithm 4 
+% ===========================================================================================
+\begin{algorithm}\label{algorithm_4}
+	\caption{ $ Sign(sk,m)$ }
+	%\begin{flushleft}
+	%\resetlatinfont
+	\begin{algorithmic}[1]
+		\For {i=1 \textbf{to} $2\lambda$}
+		\State Pick a random point R of order $\ell_B^{e_B}$
+		\State Compute the isogeny $\psi : E \rightarrow E / \langle R \rangle $
+		\State Compute either $ {\phi}' : E / \langle R \rangle \rightarrow E / \langle R ,S \rangle \ or \  {\psi}' : E / \langle S \rangle \rightarrow E / \langle R ,S \rangle $
+		\State $(E_1,E_2) \leftarrow (E / \langle R \rangle , E / \langle R,S \rangle ) $
+		\State $ com_i \leftarrow (E_1 , E_2 ) $
+		\State $ch_{i,0} \leftarrow_{R} \{ 0,1\}$
+		\State $ (resp_{i,0} , resp_{i,1}) \leftarrow ((R,\phi(R)) , \psi(S) ) $
+		\If {$ch_{i,0} = 1$}
+		\State swap $ (resp_{i,0} , resp_{i,1})$
+		\EndIf 
+		\State $h_{i,j} \leftarrow G(resp_{i,j})$
+		\EndFor 
+		\State $J_1 \parallel \cdots \parallel J_{2\lambda}  \leftarrow H( pk,m,(com_i)_i , (ch_{i,j})_{i,j} , (h_{i,j})_{i,j} )$
+		\State \textbf{return} $ \sigma \leftarrow ( (com_i)_i , (ch_{i,j})_{i,j} , (h_{i,j})_{i,j} , (resp_{i,J_i})_i ) $
+		
+	\end{algorithmic}
+	%\end{flushleft}
+\end{algorithm}
+
+% ===========================================================================================
+% ===========================================================================================
+
+% ===========================================================================================
+% Algorithm 5 
+% ===========================================================================================
+\begin{algorithm}\label{algorithm_5}
+	\caption{ $ Sign(sk,m)$ }
+	%\begin{flushleft}
+	%\resetlatinfont
+	\begin{algorithmic}[1]
+		\State $J_1 \parallel \cdots \parallel J_{2\lambda}  \leftarrow H( pk,m,(com_i)_i , (ch_{i,j})_{i,j} , (h_{i,j})_{i,j} )$
+		\For {i=1 \textbf{to} $2\lambda$}
+		\State \textbf{check} $h_{i,J_i} = G(resp_{i,J_i})$
+		\If {$ ch_{i,J_i} = 0 $}
+		\State Parse $(R,\phi(R)) \leftarrow resp_{i,J_i}$
+		\State \textbf{check} $R , \phi(R)$ have order $\ell_B^{e_B}$
+		\State \textbf{check} $R$ generates the kernel of the isogeny $E \leftarrow E_1$
+		\State \textbf{check} $\phi(R)$ generates the kernel of the isogeny $E / \langle S \rangle \rightarrow E_2 $
+		\ElsIf{}
+		\State Parse $\psi(S) \rightarrow resp_{i,J_i}$
+		\State \textbf{check} $\psi(S)$ has order $\ell_A^{e_A}$
+		\State \textbf{check} $\psi(S)$ generates the kernel of the isogeny $E_1 \rightarrow E_2$
+		\EndIf 
+		\EndFor 
+		\If{ all checks successd}
+		\State \textbf{return} $1$
+		\EndIf
+		
+	\end{algorithmic}
+	%\end{flushleft}
+\end{algorithm}
+
+% ===========================================================================================
+% ===========================================================================================
+
+\end{document}

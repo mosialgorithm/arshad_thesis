@@ -1,0 +1,4288 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.8)  8 NOV 2021 18:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**index.tex
+(./index.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./header.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count184
+\mult@box=\box47
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count185
+\c@collectmore=\count186
+\doublecol@number=\count187
+\multicoltolerance=\count188
+\multicolpretolerance=\count189
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count190
+\c@columnbadness=\count191
+\c@finalcolumnbadness=\count192
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count193
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\captionmargin=\dimen148
+\captionmargin@=\dimen149
+\captionwidth=\dimen150
+\caption@tempdima=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count194
+\c@continuedfloat=\count195
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks16
+\thm@bodyfont=\toks17
+\thm@headfont=\toks18
+\thm@notefont=\toks19
+\thm@headpunct=\toks20
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
+\dth@everypar=\toks21
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen155
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count196
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count197
+\leftroot@=\count198
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count199
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box93
+\strutbox@=\box94
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip16
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks23
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks24
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks25
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count276
+\calc@Cskip=\skip59
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count277
+\l_MT_multwidth_dim=\dimen166
+\origjot=\skip60
+\l_MT_shortvdotswithinadjustabove_dim=\dimen167
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen168
+\l_MT_above_intertext_sep=\dimen169
+\l_MT_below_intertext_sep=\dimen170
+\l_MT_above_shortintertext_sep=\dimen171
+\l_MT_below_shortintertext_sep=\dimen172
+\xmathstrut@box=\box95
+\xmathstrut@dim=\dimen173
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count278
+\float@exts=\toks27
+\float@box=\box96
+\@float@everytoks=\toks28
+\@floatcapt=\box97
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks29
+\c@algorithm=\count279
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count280
+\c@ALC@line=\count281
+\c@ALC@rem=\count282
+\c@ALC@depth=\count283
+\ALC@tlm=\skip61
+\algorithmicindent=\skip62
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen174
+\pgfutil@tempdimb=\dimen175
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box98
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
+\pgf@xd=\dimen186
+\pgf@yd=\dimen187
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count288
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count289
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count290
+\pgfsyssoftpath@bigbuffer@items=\count291
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen188
+\pgfmath@count=\count292
+\pgfmath@box=\box99
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count293
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen189
+\pgf@picmaxx=\dimen190
+\pgf@picminy=\dimen191
+\pgf@picmaxy=\dimen192
+\pgf@pathminx=\dimen193
+\pgf@pathmaxx=\dimen194
+\pgf@pathminy=\dimen195
+\pgf@pathmaxy=\dimen196
+\pgf@xx=\dimen197
+\pgf@xy=\dimen198
+\pgf@yx=\dimen199
+\pgf@yy=\dimen256
+\pgf@zx=\dimen257
+\pgf@zy=\dimen258
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen259
+\pgf@path@lasty=\dimen260
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen261
+\pgf@shorten@start@additional=\dimen262
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box100
+\pgf@hbox=\box101
+\pgf@layerbox@main=\box102
+\pgf@picture@serial@count=\count294
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen263
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen264
+\pgf@pt@y=\dimen265
+\pgf@pt@temp=\dimen266
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen267
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen268
+\pgf@sys@shading@range@num=\count295
+\pgf@shadingcount=\count296
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box103
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box104
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen269
+\pgf@nodesepend=\dimen270
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen271
+\pgffor@skip=\dimen272
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count297
+\pgfplotmarksize=\dimen273
+)
+\tikz@lastx=\dimen274
+\tikz@lasty=\dimen275
+\tikz@lastxsaved=\dimen276
+\tikz@lastysaved=\dimen277
+\tikz@lastmovetox=\dimen278
+\tikz@lastmovetoy=\dimen279
+\tikzleveldistance=\dimen280
+\tikzsiblingdistance=\dimen281
+\tikz@figbox=\box105
+\tikz@figbox@bg=\box106
+\tikz@tempbox=\box107
+\tikz@tempbox@bg=\box108
+\tikztreelevel=\count298
+\tikznumberofchildren=\count299
+\tikznumberofcurrentchild=\count300
+\tikz@fig@count=\count301
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count302
+\pgfmatrixcurrentcolumn=\count303
+\pgf@matrix@numberofcolumns=\count304
+)
+\tikz@expandcount=\count305
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen282
+\pgfarrowlength=\dimen283
+\pgfarrowwidth=\dimen284
+\pgfarrowlinewidth=\dimen285
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen286
+\pgfdecoratedremainingdistance=\dimen287
+\pgfdecoratedinputsegmentcompleteddistance=\dimen288
+\pgfdecoratedinputsegmentremainingdistance=\dimen289
+\pgf@decorate@distancetomove=\dimen290
+\pgf@decorate@repeatstate=\count306
+\pgfdecorationsegmentamplitude=\dimen291
+\pgfdecorationsegmentlength=\dimen292
+)
+\tikz@lib@dec@box=\box109
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count307
+\c@subtable=\count308
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen293
+\Hy@linkcounter=\count309
+\Hy@pagecounter=\count310
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count311
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count312
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen294
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count313
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count314
+\c@Item=\count315
+\c@Hfootnote=\count316
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box110
+\c@Hy@AnnotLevel=\count317
+\HyField@AnnotCount=\count318
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip63
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks42
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen297
+\enit@toks=\toks43
+\enit@inbox=\box111
+\enit@count@id=\count321
+\enitdp@description=\count322
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/xepersian.sty
+Package: xepersian 2020/05/17 v23.1 Persian typesetting in XeLaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count323
+\l__color_backend_stack_int=\count324
+\g__color_backend_stack_int=\count325
+\g__graphics_track_int=\count326
+\l__pdf_internal_box=\box112
+\g__pdf_backend_object_int=\count327
+\g__pdf_backend_annotation_int=\count328
+\g__pdf_backend_link_int=\count329
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count330
+\l__fontspec_language_int=\count331
+\l__fontspec_strnum_int=\count332
+\l__fontspec_tmp_int=\count333
+\l__fontspec_tmpa_int=\count334
+\l__fontspec_tmpb_int=\count335
+\l__fontspec_tmpc_int=\count336
+\l__fontspec_em_int=\count337
+\l__fontspec_emdef_int=\count338
+\l__fontspec_strong_int=\count339
+\l__fontspec_strongdef_int=\count340
+\l__fontspec_tmpa_dim=\dimen298
+\l__fontspec_tmpb_dim=\dimen299
+\l__fontspec_tmpc_dim=\dimen300
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.
+sty
+Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
+\XePersian@i=\count341
+\XePersian@y=\count342
+\XePersian@m=\count343
+\XePersian@d=\count344
+\XePersian@latini=\count345
+\XePersian@persiani=\count346
+\XePersian@latinii=\count347
+\XePersian@persianii=\count348
+\XePersian@latiniii=\count349
+\XePersian@persianiii=\count350
+\XePersian@latiniv=\count351
+\XePersian@persianiv=\count352
+\XePersian@latinv=\count353
+\XePersian@persianv=\count354
+\XePersian@latinvi=\count355
+\XePersian@persianvi=\count356
+\XePersian@latinvii=\count357
+\XePersian@persianvii=\count358
+\XePersian@latinviii=\count359
+\XePersian@persianviii=\count360
+\XePersian@latinix=\count361
+\XePersian@persianix=\count362
+\XePersian@latinx=\count363
+\XePersian@persianx=\count364
+\XePersian@latinxi=\count365
+\XePersian@persianxi=\count366
+\XePersian@latinxii=\count367
+\XePersian@persianxii=\count368
+\XePersian@persianxiii=\count369
+\XePersian@temp=\count370
+\XePersian@temptwo=\count371
+\XePersian@tempthree=\count372
+\XePersian@yModHundred=\count373
+\XePersian@thirtytwo=\count374
+\XePersian@dn=\count375
+\XePersian@sn=\count376
+\XePersian@mminusone=\count377
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigits
+pec.sty
+Package: xepersian-mathsdigitspec 2018/12/16 v1.1.7 Unicode Persian maths digit
+s in XeLaTeX
+) (/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/bidi.sty
+Package: bidi 2020/05/17 v36.3 Bidirectional typesetting in plain TeX and LaTeX
+
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v36.3, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/persiantex/bidi/issues
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/biditools.sty
+Package: biditools 2020/05/13 v2 Programming tools for bidi package
+\@bidi@envbody=\toks44
+\@bidi@emptytoks=\toks45
+\bidi@poscount=\count378
+
+
+Package biditools Warning: Patching `\enddocument' failed on input line 916.
+
+\bidi@tempcountb=\count379
+\bidi@temptoksa=\toks46
+\bidi@temptoksb=\toks47
+\bidi@dummies=\count380
+\bidi@are@these@correct=\toks48
+\bidi@toks@lista=\toks49
+\bidi@toks@listb=\toks50
+\bidi@stack@length=\count381
+\bidi@empty@stack=\toks51
+\bidi@looprepeat@depth=\count382
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count383
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
+)
+\XKV@depth=\count384
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\@bidi@copyins@=\insert252
+
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks54
+\bidi@column@check@number=\count385
+
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count386
+\footdir@toks=\toks55
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/book-xetex-bidi.def
+File: book-xetex-bidi.def 2017/06/09 v1.0 bidi adaptations for standard book cl
+ass for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/mathtools-xetex-bidi.def
+File: mathtools-xetex-bidi.def 2018/01/07 v0.1 bidi adaptations for mathtools p
+ackage for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
+ge for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
+File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package
+ for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/caption-xetex-bidi.def
+File: caption-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for caption packa
+ge for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/caption3-xetex-bidi.def
+File: caption3-xetex-bidi.def 2013/04/01 v0.1 bidi adaptations for caption3 pac
+kage for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/color-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 47.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/xcolor-xetex-bidi.def
+File: xcolor-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for xcolor package
+ for XeTeX engine
+LaTeX Info: Redefining \color on input line 46.
+LaTeX Info: Redefining \bidicolor on input line 89.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
+File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
+or XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/hyperref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2018/11/11 v1.1 bidi adaptations for hyperref pac
+kage for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/pgfcorescopes.code-xetex-b
+idi.def
+File: pgfcorescopes.code-xetex-bidi.def 2015/11/14 v0.1 bidi adaptations for pg
+f package for XeTeX engine
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/multicol-xetex-bidi.def
+File: multicol-xetex-bidi.def 2019/06/14 v1.2 bidi adaptations for multicol pac
+kage for XeTeX engine
+))
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/bidi/loadingorder-xetex-bidi.de
+f
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
+ last package loaded
+)
+\bidi@digits=\count387
+\bidi@digits@charclass=\XeTeXcharclass1
+\bidi@sepmark@charclass=\XeTeXcharclass2
+)
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright (c) 2008--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub Organization
+* 
+* v23.1, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/persiantex/xepersian/issues
+* 
+* Primary author of xepersian package: Vafa Khalighi.
+* 
+****************************************************
+\xepersian@tcl=\count388
+\xepersian@ilg=\dimen301
+\xepersian@strutilg=\dimen302
+
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersia
+n.def
+File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
+the last package loaded
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.de
+f
+File: footnote-xepersian.def 2017/08/09 v0.6 footnote macros for xepersian pack
+age
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/algorithmic-xepersian
+.def
+File: algorithmic-xepersian.def 2010/07/25 v0.2 adaptations for algorithmic pac
+kage
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.d
+ef
+File: algorithm-xepersian.def 2010/07/25 v0.2 adaptations for algorithm package
+
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/enumerate-xepersian.d
+ef
+File: enumerate-xepersian.def 2010/07/25 v0.1 adaptations for enumerate package
+
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/enumitem-xepersian.de
+f
+File: enumitem-xepersian.def 2017/09/06 v0.1 adaptations for enumitem package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.de
+f
+File: hyperref-xepersian.def 2015/02/02 v0.6 bilingual captions for hyperref pa
+ckage
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/tikz.code-xepersian.d
+ef
+File: tikz.code-xepersian.def 2020/05/17 v0.2 adaptations for tikz.code.tex fil
+e
+)
+(/usr/local/texlive/2021/texmf-dist/tex/xelatex/xepersian/book-xepersian.def
+File: book-xepersian.def 2010/07/25 v0.2 adaptations for standard book class
+)
+
+Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
+(fontspec)             'lmroman10-regular' with options
+(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalic
+Font={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmroma
+ncaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromans
+lant10-bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;map
+ping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mappin
+g=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapp
+ing=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=dfl
+t;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=dflt;m
+apping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+
+)
+
+Package fontspec Info: Font family 'XBZar(0)' created for font 'XBZar' with
+(fontspec)             options [Script=Persian,Ligatures=PersianTeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"XBZar/OT:script=arab;language=dflt;mapping=persian-t
+ex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"XBZar/B/OT:script=arab;language=dflt;mapping=persian
+-tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"XBZar/I/OT:script=arab;language=dflt;mapping=persian
+-tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"XBZar/BI/OT:script=arab;language=dflt;mapping=persia
+n-tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'XBZar(1)' created for font 'XBZar' with
+(fontspec)             options [Ligatures=PersianTeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"XBZar/OT:script=latn;language=dflt;mapping=persian-t
+ex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"XBZar/B/OT:script=latn;language=dflt;mapping=persian
+-tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"XBZar/I/OT:script=latn;language=dflt;mapping=persian
+-tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"XBZar/BI/OT:script=latn;language=dflt;mapping=persia
+n-tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
+as'XBZar' on input line 44.
+\symOPERATORS=\mathgroup6
+\symnew@mathbf@font@digits=\mathgroup7
+\symnew@mathit@font@digits=\mathgroup8
+\symnew@mathrm@font@digits=\mathgroup9
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 
+     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \l_fontspec_font "#1\scan_...
+l.44 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\__xepersian_mathsdigitspec_primitive_font_char_if_exist:nF ...
+                                                  \use:n 
+l.44 
+     
+I'm ignoring this; it doesn't match any \if.
+
+
+Overfull \hbox (21.00037pt too wide) in paragraph at lines 44--44
+[][]\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۰\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۱\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۲\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۳\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۴\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۵\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۶\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۷\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۸\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶\l_fontspec_font F\TU/XBZar(0)/m/n/
+12 ۹\l_fontspec_font "\TU/XBZar(0)/m/n/12 ۰۶۶\l_fontspec_font A"\TU/XBZar(0)/m/
+n/12 ۰۶۶\l_fontspec_font B []
+ []
+
+\c@theorem=\count389
+\c@refproof=\count390
+\c@lemma=\count391
+\c@proposition=\count392
+\c@definition=\count393
+\c@example=\count394
+\c@prob=\count395
+\c@corollary=\count396
+\c@remark=\count397
+(./index.aux (./isogeny.aux)
+No file pre_digital_signature.aux.
+(./ds_on_isogeny.aux
+
+LaTeX Warning: Label `non-pf' multiply defined.
+
+
+LaTeX Warning: Label `unruh_constuction' multiply defined.
+
+
+LaTeX Warning: Label `algorithm_prover' multiply defined.
+
+
+LaTeX Warning: Label `alg_prover' multiply defined.
+
+
+LaTeX Warning: Label `algorithm_verifier' multiply defined.
+
+
+LaTeX Warning: Label `alg_verifier' multiply defined.
+
+)
+No file security_of_ds_on_isogeny.aux.
+(./algorithmic_aspect.aux
+
+LaTeX Warning: Label `algorithm_aspect' multiply defined.
+
+
+LaTeX Warning: Label `parameter_generate' multiply defined.
+
+
+LaTeX Warning: Label `find_generators_of_torsion_points' multiply defined.
+
+
+LaTeX Warning: Label `key_exchange' multiply defined.
+
+
+LaTeX Warning: Label `sampling_torsion_points' multiply defined.
+
+
+LaTeX Warning: Label `algorithm_ladder' multiply defined.
+
+
+LaTeX Warning: Label `smooth_isogeny' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `model_choice' multiply defined.
+
+
+LaTeX Warning: Label `size_parameter' multiply defined.
+
+
+LaTeX Warning: Label `tbl:comparison_signature_scheme' multiply defined.
+
+)
+No file parameter_sizes.aux.
+No file vocab.aux.
+(./footer.aux))
+\openout1 = `index.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 74.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count398
+)
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
+ (./index.out) (./index.out)
+\@outlinefile=\write4
+\openout4 = `index.out'.
+
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/XBZar(0)/m/it' tried instead on input line 8
+1.
+ [1
+
+])
+\openout2 = `isogeny.aux'.
+
+ (./isogeny.tex [2
+
+
+
+]
+فصل 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <12> not available
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 5.
+
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <8> not available
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 5.
+
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <6> not available
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
+[][]
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--70
+[][]
+ []
+
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <17.28> not available
+
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 81
+.
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <10> not available
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 81
+.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 81.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+[][]
+ []
+
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 256--267
+[][]
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--393
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--406
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+[][]
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 434--436
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+[][]
+ []
+
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 574--578
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--635
+[][]
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
+[][]
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 700--732
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--743
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--752
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 771--775
+[][]
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 812--814
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--822
+[][]
+ []
+
+[15]
+Overfull \hbox (10.5281pt too wide) detected at line 859
+\OML/cmm/m/it/12 Y \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 y \OMS/cmsy/m/n/12 ^^@ []
+ []\OML/cmm/m/it/12 v[] \OMS/cmsy/m/n/12 ^^A [] \OT1/cmr/m/n/12 + \OML/cmm/m/it
+/12 v[] \OMS/cmsy/m/n/12 ^^A [] \OT1/cmr/m/n/12 + [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 866--868
+[][]
+ []
+
+[16]) [17]
+\openout2 = `pre_digital_signature.aux'.
+
+ (./pre_digital_signature.tex [18
+
+
+
+
+]
+فصل 2.
+
+LaTeX Warning: Reference `footdir@1' on page 19 undefined on input line 2.
+
+
+LaTeX Warning: Reference `footdir@2' on page 19 undefined on input line 2.
+
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <7> not available
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 2.
+
+LaTeX Font Info:    Font shape `TU/XBZar(1)/bx/n' in size <5> not available
+(Font)              Font shape `TU/XBZar(1)/b/n' tried instead on input line 2.
+
+
+LaTeX Warning: Reference `footdir@3' on page 19 undefined on input line 10.
+
+[19] (./commitment_scheme.tex [20]
+Underfull \hbox (badness 10000) in paragraph at lines 79--87
+[][]
+ []
+
+[21]
+
+LaTeX Warning: Reference `footdir@4' on page 22 undefined on input line 90.
+
+
+LaTeX Warning: Reference `footdir@5' on page 22 undefined on input line 90.
+
+
+LaTeX Warning: Reference `footdir@6' on page 22 undefined on input line 101.
+
+
+LaTeX Warning: Reference `footdir@7' on page 22 undefined on input line 101.
+
+
+Overfull \hbox (1.9453pt too wide) in paragraph at lines 127--137
+[]$\OML/cmm/m/it/12 commit\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u; []\OT1/cmr/m/n/1
+2 )$ \TU/XBZar(0)/m/n/12 و $\OML/cmm/m/it/12 commit\OT1/cmr/m/n/12 (\OML/cmm/m/
+it/12 u; []\OT1/cmr/m/n/12 )$ \TU/XBZar(0)/m/n/12 زمانیکه $\OML/cmm/m/it/12 u [
+][][]\OMS/cmsy/m/n/12 f[]\OML/cmm/m/it/12 ; []\OMS/cmsy/m/n/12 g[]$ \TU/XBZar(0
+)/m/n/12 ،غیرقابل‌تشخیص(یکنواخت)[]
+ []
+
+
+LaTeX Warning: Reference `footdir@8' on page 22 undefined on input line 210.
+
+[22]
+Overfull \hbox (0.23503pt too wide) in paragraph at lines 226--228
+[]\TU/XBZar(0)/m/n/12 طرح تعهد در بسیاری از پروتکل‌های رمزنگاری مورداستفاده قرا
+ر می‌گیرند. از جمله‌ی این پروتکل‌ها[]
+ []
+
+) (./pre_zkp.tex
+
+LaTeX Warning: Reference `footdir@9' on page 23 undefined on input line 6.
+
+
+LaTeX Warning: Reference `footdir@10' on page 23 undefined on input line 6.
+
+
+LaTeX Warning: Reference `footdir@11' on page 23 undefined on input line 12.
+
+[23]
+
+LaTeX Warning: Reference `footdir@12' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Reference `footdir@13' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig:zkp' on page 24 undefined on input line 77.
+
+[24]
+
+LaTeX Warning: Reference `footdir@14' on page 25 undefined on input line 138.
+
+[25]
+
+LaTeX Warning: Reference `footdir@15' on page 26 undefined on input line 153.
+
+
+LaTeX Warning: Reference `footdir@16' on page 26 undefined on input line 153.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@17' on page 26 undefined on input line 259.
+
+[26]
+
+LaTeX Warning: Reference `fig:zkp' on page 27 undefined on input line 280.
+
+) (./identification.tex
+
+LaTeX Warning: Reference `footdir@18' on page 27 undefined on input line 3.
+
+
+LaTeX Warning: Reference `footdir@19' on page 27 undefined on input line 3.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+
+LaTeX Warning: Reference `footdir@20' on page 28 undefined on input line 48.
+
+[28]
+
+LaTeX Warning: Reference `footdir@21' on page 29 undefined on input line 53.
+
+
+LaTeX Warning: Reference `footdir@22' on page 29 undefined on input line 53.
+
+
+LaTeX Warning: Reference `footdir@23' on page 29 undefined on input line 60.
+
+
+LaTeX Warning: Reference `footdir@24' on page 29 undefined on input line 60.
+
+
+LaTeX Warning: Reference `footdir@25' on page 29 undefined on input line 62.
+
+
+LaTeX Warning: Reference `footdir@26' on page 29 undefined on input line 62.
+
+
+LaTeX Warning: Reference `footdir@27' on page 29 undefined on input line 67.
+
+
+LaTeX Warning: Reference `footdir@28' on page 29 undefined on input line 67.
+
+
+Overfull \hbox (6.57422pt too wide) in paragraph at lines 57--85
+[][]\TU/XBZar(0)/m/n/12 از اصلی‌ترین حملات جعل‌هویت غیرفعال می‌توان به استراق‌س
+مع روی یک ارتباط بین اثبات‌کننده[]
+ []
+
+
+LaTeX Warning: Reference `footdir@29' on page 29 undefined on input line 85.
+
+[29]
+Overfull \hbox (0.24284pt too wide) in paragraph at lines 88--90
+[]\TU/XBZar(0)/m/n/12 چهارنوع پروتکل پرسش-پاسخ اصلی وجود دارد. درهریک از این پر
+وتکل‌های شناسایی، تاییدکننده[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
+[][]
+ []
+
+[30]
+
+LaTeX Warning: Reference `footdir@30' on page 31 undefined on input line 117.
+
+
+LaTeX Warning: Reference `footdir@31' on page 31 undefined on input line 117.
+
+
+LaTeX Warning: Reference `footdir@32' on page 31 undefined on input line 119.
+
+
+LaTeX Warning: Reference `footdir@33' on page 31 undefined on input line 119.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--144
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--173
+[][]
+ []
+
+
+Overfull \hbox (7.07422pt too wide) in paragraph at lines 147--173
+[]\TU/XBZar(0)/m/n/12 برای مقاومت دربرابر حمله‌ی تاییدکننده‌متقلب لازم است که ا
+ین طرح در برابر حمله‌ی متن‌ساده‌انتخابی[]
+ []
+
+
+LaTeX Warning: Reference `footdir@34' on page 31 undefined on input line 173.
+
+[31]
+Overfull \hbox (4.97365pt too wide) in paragraph at lines 176--205
+[]$\OML/cmm/m/it/12 c [][][] []\OMS/cmsy/m/n/12 f[]\OML/cmm/m/it/12 ; []\OMS/cm
+sy/m/n/12 g[]$ \TU/XBZar(0)/m/n/12 را برای اثبات‌کننده ارسال می‌کند و درادامه ا
+ثبات‌کننده در جواب چالش دریافت‌شده،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--205
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@35' on page 32 undefined on input line 205.
+
+
+LaTeX Warning: Reference `footdir@36' on page 32 undefined on input line 205.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+
+LaTeX Warning: Reference `footdir@37' on page 33 undefined on input line 211.
+
+
+LaTeX Warning: Reference `footdir@38' on page 33 undefined on input line 211.
+
+
+LaTeX Warning: Reference `footdir@39' on page 33 undefined on input line 215.
+
+
+LaTeX Warning: Reference `footdir@40' on page 33 undefined on input line 215.
+
+
+LaTeX Warning: Reference `footdir@41' on page 33 undefined on input line 235.
+
+[33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 321--330
+[][]
+ []
+
+
+Overfull \hbox (12.10393pt too wide) in paragraph at lines 330--365
+[]\TU/XBZar(0)/m/n/12 تاییدکننده یک چالش $\OML/cmm/m/it/12 c$ \TU/XBZar(0)/m/n/
+12 را به‌صورت اتفاقی از $\OMS/cmsy/m/n/12 f[]\OML/cmm/m/it/12 ; []\OMS/cmsy/m/n
+/12 g$ \TU/XBZar(0)/m/n/12 انتخاب می‌کند.درادامه دو الگوریتم چندجمله‌ای[]
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 365--372
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@42' on page 36 undefined on input line 381.
+
+
+LaTeX Warning: Reference `footdir@43' on page 36 undefined on input line 381.
+
+
+LaTeX Warning: Reference `footdir@44' on page 36 undefined on input line 383.
+
+
+LaTeX Warning: Reference `footdir@45' on page 36 undefined on input line 383.
+
+
+Overfull \hbox (4.38867pt too wide) in paragraph at lines 373--386
+[]\TU/XBZar(0)/m/n/12 آن‌که استراق‌سمع تعاملات میان اثبات‌کننده صادق با تاییدکن
+نده هیچ اطلاعاتی در مورد کلیدخصوصی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--386
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@46' on page 36 undefined on input line 419.
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 422--432
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--441
+[][]
+ []
+
+[37]
+Missing character: There is no ‌ ("200C) in font cmr12!
+ [38]
+
+LaTeX Warning: Reference `footdir@47' on page 39 undefined on input line 498.
+
+
+LaTeX Warning: Reference `footdir@48' on page 39 undefined on input line 498.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--500
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--500
+[][]
+ []
+
+
+Overfull \hbox (18.05296pt too wide) in paragraph at lines 503--511
+[]\TU/XBZar(0)/m/n/12 براساس چالش مشخص $\OML/cmm/m/it/12 c$ \TU/XBZar(0)/m/n/12
+ تولید کند.تمام پروتکل‌های ذکرشده در بالا همگی دانش‌صفر تاییدکننده‌صادق[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--511
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@49' on page 39 undefined on input line 530.
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 579--583
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--605
+[][]
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 642--646
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--646
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--646
+[][]
+ []
+
+
+Overfull \hbox (0.9655pt too wide) in paragraph at lines 648--652
+[]\TU/XBZar(0)/m/it/12 تعاملی(مانند طرح‌های شناسایی) و طرح‌های احرازهویت غیرتعا
+ملی(مانند امضای دیجیتال). به‌طور[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
+[][]
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 653--660
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--660
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--675
+[][]
+ []
+
+[42]
+Overfull \hbox (0.52464pt too wide) in paragraph at lines 753--765
+[][]\TU/XBZar(0)/b/it/12 الگوریتم تاییدساز امضا. \TU/XBZar(0)/m/it/12 با دریافت
+ پیام $\OML/cmm/m/it/12 M$ \TU/XBZar(0)/m/it/12 و زوج $\OT1/cmr/m/n/12 (\OML/cm
+m/m/it/12 c; r\OT1/cmr/m/n/12 )$ \TU/XBZar(0)/m/it/12 به‌عنوان امضا و یک کلیدعم
+ومی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--768
+[][]
+ []
+
+)) [43]
+\openout2 = `ds_on_isogeny.aux'.
+
+ (./ds_on_isogeny.tex [44
+
+
+
+
+]
+فصل 3.
+(./sigma_protocol.tex
+Missing character: There is no ‌ ("200C) in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
+[][]
+ []
+
+[45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 95--114
+[][]
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+[][]
+ []
+
+
+LaTeX Warning: Reference `fig:zkp' on page 48 undefined on input line 151.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--155
+[][]
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 225--231
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--231
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--284
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--284
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--284
+[][]
+ []
+
+[49] [50]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 386.
+
+! Undefined control sequence.
+l.390 ^^I^^I^^I\State
+                      // Create t.c proofs and hash each response
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.391 ^^I^^I^^I\For
+                   { $ i=1 \ \textbf{to} \ t $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.392 ^^I^^I^^I\State
+                      $com_i \leftarrow P_{\Sigma}^{1}(x,w)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.393 ^^I^^I^^I\For
+                   { $j=1 \ \textbf{to} \ c $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.394 ^^I^^I^^I\State
+                      $ch_{i,j} \leftarrow_{R} N_{ch} \setminus \{ch_{i,1} ,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.395 ^^I^^I^^I\State
+                      $resp_{i,j} \leftarrow P_{\Sigma}^2 (x,w,com,ch_{i,j})$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.396 ^^I^^I^^I\State
+                      $h_{i,j} \leftarrow G(resp_{i,j})$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.397 ^^I^^I^^I\EndFor
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.398 ^^I^^I^^I\EndFor
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.400 ^^I^^I^^I\State
+                      // Get challenge by hashing
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.401 ^^I^^I^^I\State
+                      $ J_1 \parallel \cdots \parallel j_t \leftarrow H(x(co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.401 ...})_{i,j} , (h_{i,j})_{i,j}   ) $ \Comment
+                                                  {Get challenge by hashing}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.403 ^^I^^I^^I\State
+                      // return proof
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.404 ^^I^^I^^I\State
+                      \textbf{return} $\pi \leftarrow ( (com_i)_i , (ch_{i,j...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.404 ...j})_{i,j} , (resp_{i,J_i})_i  )$ \Comment
+                                                  {return proof}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 ^^I^^I\end{algorithmic}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 411--414
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--414
+[][]
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 462--465
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--465
+[][]
+ []
+
+! Undefined control sequence.
+l.478 ^^I^^I\State
+                   // Compute the challenge hash
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.479 ^^I^^I\For
+                { $ i=1 \ \textbf{to} \ t $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.480 ^^I^^I\State
+                   $ \textbf{check} ~ ch_{i,1} , \cdots ch_{i,m} pairwise di...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.481 ^^I^^I\State
+                   $ \textbf{check} ~ h_{i,J_i} = G(resp_i) $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.482 ^^I^^I\State
+                   $ \textbf{check} ~ V_{\Sigma}(x,com_i,ch_{i,J_i} , resp_i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.483 ^^I^^I\EndFor
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.484 ^^I^^I\If
+               { all checks succeed}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.486 ^^I^^I\EndIf
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.488 ^^I\end{algorithmic}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--488
+[][]\TU/lmroman10-regular(0)/m/n/12 // Compute the challenge hash  $\OML/cmm/m/
+it/12 i \OT1/cmr/m/n/12 = 1 [] \OML/cmm/m/it/12 t$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--488
+[]$[] []\OML/cmm/m/it/12 ch[]; [] ch[]pairwisedistinct$ $[] []h[] \OT1/cmr/m/n/
+12 = \OML/cmm/m/it/12 G\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 resp[]\OT1/cmr/m/n/12 
+)$[]
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 478--488
+[]$[] []\OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; com[]; ch[]; r
+esp[]\OT1/cmr/m/n/12 ) = 1$  \TU/lmroman10-regular(0)/m/n/12 all checks succeed
+ \TU/lmroman10-regular(0)/b/n/12 return[]
+ []
+
+) (./unruh.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--61
+[][]
+ []
+
+[53]
+Missing character: There is no ‌ ("200C) in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
+[][]
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 106--111
+[][]
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+[][]
+ []
+
+
+LaTeX Warning: Reference `fig:zkp' on page 56 undefined on input line 171.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--175
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--175
+[][]
+ []
+
+[56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 247--253
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--253
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--306
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--306
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--306
+[][]
+ []
+
+[58] [59]
+! Undefined control sequence.
+l.412 ^^I^^I^^I\State
+                      // Create t.c proofs and hash each response
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.413 ^^I^^I^^I\For
+                   { $ i=1 \ \textbf{to} \ t $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.414 ^^I^^I^^I\State
+                      $com_i \leftarrow P_{\Sigma}^{1}(x,w)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.415 ^^I^^I^^I\For
+                   { $j=1 \ \textbf{to} \ c $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.416 ^^I^^I^^I\State
+                      $ch_{i,j} \leftarrow_{R} N_{ch} \setminus \{ch_{i,1} ,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.417 ^^I^^I^^I\State
+                      $resp_{i,j} \leftarrow P_{\Sigma}^2 (x,w,com,ch_{i,j})$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.418 ^^I^^I^^I\State
+                      $h_{i,j} \leftarrow G(resp_{i,j})$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.419 ^^I^^I^^I\EndFor
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.420 ^^I^^I^^I\EndFor
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.422 ^^I^^I^^I\State
+                      // Get challenge by hashing
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.423 ^^I^^I^^I\State
+                      $ J_1 \parallel \cdots \parallel j_t \leftarrow H(x(co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.423 ...})_{i,j} , (h_{i,j})_{i,j}   ) $ \Comment
+                                                  {Get challenge by hashing}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.425 ^^I^^I^^I\State
+                      // return proof
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.426 ^^I^^I^^I\State
+                      \textbf{return} $\pi \leftarrow ( (com_i)_i , (ch_{i,j...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.426 ...j})_{i,j} , (resp_{i,J_i})_i  )$ \Comment
+                                                  {return proof}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.427 ^^I^^I\end{algorithmic}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--487
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--487
+[][]
+ []
+
+[61]
+! Undefined control sequence.
+l.500 ^^I^^I\State
+                   // Compute the challenge hash
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ^^I^^I\For
+                { $ i=1 \ \textbf{to} \ t $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.502 ^^I^^I\State
+                   $ \textbf{check} ~ ch_{i,1} , \cdots ch_{i,m} pairwise di...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.503 ^^I^^I\State
+                   $ \textbf{check} ~ h_{i,J_i} = G(resp_i) $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.504 ^^I^^I\State
+                   $ \textbf{check} ~ V_{\Sigma}(x,com_i,ch_{i,J_i} , resp_i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.505 ^^I^^I\EndFor
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.506 ^^I^^I\If
+               { all checks succeed}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.508 ^^I^^I\EndIf
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 ^^I\end{algorithmic}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--510
+[][]\TU/lmroman10-regular(0)/m/n/12 // Compute the challenge hash  $\OML/cmm/m/
+it/12 i \OT1/cmr/m/n/12 = 1 [] \OML/cmm/m/it/12 t$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--510
+[]$[] []\OML/cmm/m/it/12 ch[]; [] ch[]pairwisedistinct$ $[] []h[] \OT1/cmr/m/n/
+12 = \OML/cmm/m/it/12 G\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 resp[]\OT1/cmr/m/n/12 
+)$[]
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 500--510
+[]$[] []\OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; com[]; ch[]; r
+esp[]\OT1/cmr/m/n/12 ) = 1$  \TU/lmroman10-regular(0)/m/n/12 all checks succeed
+ \TU/lmroman10-regular(0)/b/n/12 return[]
+ []
+
+) (./ds_on_zkp.tex
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.12 $\bf
+          KeyGen(\lambda)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.12 $\bf
+          KeyGen(\lambda)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.12 $\bf
+          KeyGen(\lambda)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.21 $\bf
+          Sign(sk,m)$^^I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.21 $\bf
+          Sign(sk,m)$^^I
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.21 $\bf
+          Sign(sk,m)$^^I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[62]
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.32 $\bf
+          Verify(pk,m,\sigma)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.32 $\bf
+          Verify(pk,m,\sigma)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.32 $\bf
+          Verify(pk,m,\sigma)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.36 $\bf
+          pk $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.36 $\bf
+          pk $
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.36 $\bf
+          pk $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.38 $\bf
+          \sigma $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.38 $\bf
+          \sigma $
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.38 $\bf
+          \sigma $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.40 $\bf
+          m $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.40 $\bf
+          m $
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.40 $\bf
+          m $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.52 $\bf
+          sig : m \mapsto Sign(sk,m)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.52 $\bf
+          sig : m \mapsto Sign(sk,m)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.52 $\bf
+          sig : m \mapsto Sign(sk,m)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.56 $\bf
+          KeyGen$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.56 $\bf
+          KeyGen$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.56 $\bf
+          KeyGen$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.58 $\bf
+          (sk,pk)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.58 $\bf
+          (sk,pk)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.58 $\bf
+          (sk,pk)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.60 $\bf
+          pk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.60 $\bf
+          pk$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.60 $\bf
+          pk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.62 $\bf
+          sk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.62 $\bf
+          sk$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.62 $\bf
+          sk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.64 $\bf
+          x=pk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.64 $\bf
+          x=pk$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.64 $\bf
+          x=pk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.66 $\bf
+          w = sk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.66 $\bf
+          w = sk$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.66 $\bf
+          w = sk$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.68 $\bf
+          (x,w) \in R$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.68 $\bf
+          (x,w) \in R$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.68 $\bf
+          (x,w) \in R$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.70 $\bf
+          (x,w)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.70 $\bf
+          (x,w)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.70 $\bf
+          (x,w)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.72 $\bf
+          KeyGen$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.72 $\bf
+          KeyGen$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.72 $\bf
+          KeyGen$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.78 $\bf
+          x$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.78 $\bf
+          x$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.78 $\bf
+          x$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.80 $\bf
+          x = (pk,m)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.80 $\bf
+          x = (pk,m)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.80 $\bf
+          x = (pk,m)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.82 $\bf
+          R $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.82 $\bf
+          R $
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.82 $\bf
+          R $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.85 $\bf
+          ((pk,m),w) \in R$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.85 $\bf
+          ((pk,m),w) \in R$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.85 $\bf
+          ((pk,m),w) \in R$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.89 $\bf
+          (pk,m)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.89 $\bf
+          (pk,m)$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.89 $\bf
+          (pk,m)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--100
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--100
+[][]
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+[][]
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--181
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--181
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--181
+[][]
+ []
+
+[65] [66] [67] [68]
+Overfull \hbox (6.92926pt too wide) in paragraph at lines 351--354
+[]\TU/XBZar(0)/m/n/12 داشته باشد بنابراین همان‌طور که در الگوریتم امضا مشاهده ش
+د، چالش‌ها از قسمت‌هایی[]
+ []
+
+[69]
+Missing character: There is no ‌ ("200C) in font cmr12!
+) (./algorithmic_aspect.tex [70] [71] [72]
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
+[][]
+ []
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 198--213
+[][]
+ []
+
+
+Overfull \hbox (1.2518pt too wide) in paragraph at lines 261--270
+[]\TU/XBZar(0)/m/it/12 محاسبه‌ی همسانی $\OML/cmm/m/it/12 ^^^[] \OT1/cmr/m/n/12 
+: \OML/cmm/m/it/12 E[] \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 E[]$ \TU/XBZar(0)/m/
+it/12 با هسته‌ی $\OMS/cmsy/m/n/12 h\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 m[]\OT1/cm
+r/m/n/12 ]\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P[]\OT1/cmr/m
+/n/12 ) + [\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ^^^[]\OT1/cmr/
+m/n/12 (\OML/cmm/m/it/12 Q[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 i$[]
+ []
+
+[74]
+Overfull \hbox (34.05075pt too wide) detected at line 293
+\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 )) = 
+\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 )) = \OML/cmm/m/it/12 E[]=\OMS/cmsy/m/n/12 h
+\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 P[] \OT1
+/cmr/m/n/12 + [\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 Q[]; \OT1/
+cmr/m/n/12 [\OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 P[] \OT1/cmr/
+m/n/12 + [\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 Q[]\OMS/cmsy/m/
+n/12 i
+ []
+
+! Undefined control sequence.
+l.312 ^^I^^I^^I\State
+                      Set $A=0, B=Q, C=P$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.313 ^^I^^I^^I\State
+                      Compute $Q-P ;$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.314 ^^I^^I^^I\For
+                   { $ i= |t| \ \textbf{to} \ 1 $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.315 ^^I^^I^^I\State
+                      Let $t_i$ be the $i$-th bit of t;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.316 ^^I^^I^^I\If
+                   {$t_i = 0 $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.317 ^^I^^I^^I\State
+                      $A=2A, B=dadd(A,B,Q), C=dadd(A,C,P);$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.318 ^^I^^I^^I\Else
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.319 ^^I^^I^^I\State
+                      $A=dadd(A,B,Q), B=2B, C=dadd(B,C,Q-P);$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.320 ^^I^^I^^I\EndIf
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.321 ^^I^^I^^I\EndFor
+                      ^^I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 ^^I^^I\end{algorithmic}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package caption Warning: \label without proper reference on input line 306.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `algorithm_ladder' on page 75 undefined on input line 
+382.
+
+[75] [76] [77] (./montgomery.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--20
+[][]
+ []
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 56--69
+[][]
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 117--125
+[][]
+ []
+
+[80]) (./parameter_sizes.tex
+
+LaTeX Warning: Reference `sign_security' on page 81 undefined on input line 12.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--46
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@159' on page 81 undefined on input line 46.
+
+[81]
+Overfull \hbox (17.31941pt too wide) detected at line 49
+\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 mP[] \OT1/cmr/m/n/12 + \O
+ML/cmm/m/it/12 nQ[] [] m[]R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m[]mP[] \OT1/cmr
+/m/n/12 + \OML/cmm/m/it/12 m[]nQ[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[] \OT1/
+cmr/m/n/12 + \OML/cmm/m/it/12 m[]nQ[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[] \O
+T1/cmr/m/n/12 + \OML/cmm/m/it/12 kQ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--64
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--91
+[][]
+ []
+
+[82]
+
+LaTeX Warning: Reference `sign_security' on page 83 undefined on input line 170
+.
+
+[83]
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
+[][]
+ []
+
+[84]))) [85]
+\openout2 = `security_of_ds_on_isogeny.aux'.
+
+ (./security_of_ds_on_isogeny.tex [86
+
+
+
+
+]
+فصل 4.
+(./security.tex
+
+LaTeX Warning: Reference `footdir@160' on page 87 undefined on input line 47.
+
+
+LaTeX Warning: Reference `footdir@161' on page 87 undefined on input line 47.
+
+Missing character: There is no ‌ ("200C) in font cmr12!
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.85 $\bf
+          {CSSI}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.85 $\bf
+          {CSSI}$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.85 $\bf
+          {CSSI}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `footdir@162' on page 87 undefined on input line 101.
+
+
+LaTeX Warning: Reference `footdir@163' on page 87 undefined on input line 101.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--111
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--111
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--111
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--111
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--111
+[][]
+ []
+
+
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+ [87]
+
+LaTeX Warning: Reference `footdir@164' on page 88 undefined on input line 111.
+
+[88]
+
+LaTeX Warning: Reference `footdir@165' on page 89 undefined on input line 113.
+
+
+LaTeX Warning: Reference `footdir@166' on page 89 undefined on input line 113.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--117
+[][]
+ []
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Use 1 not \c_one deprecated on 2020-01-01.
+l.178 $\bf
+          {DSSP}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ;
+l.178 $\bf
+          {DSSP}$
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LaTeX3 error: 
+                           Zero step size for step function \__int_map_1:w .
+l.178 $\bf
+          {DSSP}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--182
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--182
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@167' on page 89 undefined on input line 190.
+
+[89]
+
+LaTeX Warning: Reference `footdir@168' on page 90 undefined on input line 192.
+
+
+LaTeX Warning: Reference `footdir@169' on page 90 undefined on input line 192.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
+[][]
+ []
+
+
+LaTeX Warning: Reference `fig:zkp' on page 90 undefined on input line 214.
+
+
+LaTeX Warning: Reference `footdir@170' on page 90 undefined on input line 266.
+
+[90]
+
+LaTeX Warning: Reference `footdir@171' on page 91 undefined on input line 283.
+
+
+LaTeX Warning: Reference `footdir@172' on page 91 undefined on input line 283.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--323
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--360
+[][]
+ []
+
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/sl' in size <12> not available
+(Font)              Font shape `TU/XBZar(0)/b/it' tried instead on input line 3
+60.
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 362--380
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--380
+[][]
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[][]
+ []
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 431--484
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--501
+[][]
+ []
+
+[94]
+
+LaTeX Warning: Reference `theorem_3' on page 95 undefined on input line 522.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--577
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--577
+[][]
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 641--661
+[][]
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 726--728
+[][]
+ []
+
+
+LaTeX Warning: Reference `theorem_3' on page 97 undefined on input line 744.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--789
+[][]
+ []
+
+[97])) [98]
+\openout2 = `algorithmic_aspect.aux'.
+
+ (./algorithmic_aspect.tex [99
+
+
+
+] [100]
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
+[][]
+ []
+
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 198--213
+[][]
+ []
+
+
+Overfull \hbox (1.2518pt too wide) in paragraph at lines 261--270
+[]\TU/XBZar(0)/m/it/12 محاسبه‌ی همسانی $\OML/cmm/m/it/12 ^^^[] \OT1/cmr/m/n/12 
+: \OML/cmm/m/it/12 E[] \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 E[]$ \TU/XBZar(0)/m/
+it/12 با هسته‌ی $\OMS/cmsy/m/n/12 h\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 m[]\OT1/cm
+r/m/n/12 ]\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P[]\OT1/cmr/m
+/n/12 ) + [\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ^^^[]\OT1/cmr/
+m/n/12 (\OML/cmm/m/it/12 Q[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 i$[]
+ []
+
+[102]
+Overfull \hbox (34.05075pt too wide) detected at line 293
+\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 )) = 
+\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^^[]\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 )) = \OML/cmm/m/it/12 E[]=\OMS/cmsy/m/n/12 h
+\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 P[] \OT1
+/cmr/m/n/12 + [\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 Q[]; \OT1/
+cmr/m/n/12 [\OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 P[] \OT1/cmr/
+m/n/12 + [\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 Q[]\OMS/cmsy/m/
+n/12 i
+ []
+
+! Undefined control sequence.
+l.312 ^^I^^I^^I\State
+                      Set $A=0, B=Q, C=P$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.313 ^^I^^I^^I\State
+                      Compute $Q-P ;$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.314 ^^I^^I^^I\For
+                   { $ i= |t| \ \textbf{to} \ 1 $ }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.315 ^^I^^I^^I\State
+                      Let $t_i$ be the $i$-th bit of t;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.316 ^^I^^I^^I\If
+                   {$t_i = 0 $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.317 ^^I^^I^^I\State
+                      $A=2A, B=dadd(A,B,Q), C=dadd(A,C,P);$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.318 ^^I^^I^^I\Else
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.319 ^^I^^I^^I\State
+                      $A=dadd(A,B,Q), B=2B, C=dadd(B,C,Q-P);$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.320 ^^I^^I^^I\EndIf
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.321 ^^I^^I^^I\EndFor
+                      ^^I
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 ^^I^^I\end{algorithmic}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package caption Warning: \label without proper reference on input line 306.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `algorithm_ladder' on page 103 undefined on input line
+ 382.
+
+[103] [104] [105] (./montgomery.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--20
+[][]
+ []
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 56--69
+[][]
+ []
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 117--125
+[][]
+ []
+
+[108]) (./parameter_sizes.tex
+
+LaTeX Warning: Reference `sign_security' on page 109 undefined on input line 12
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--46
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@193' on page 109 undefined on input line 46.
+
+[109]
+Overfull \hbox (17.31941pt too wide) detected at line 49
+\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 mP[] \OT1/cmr/m/n/12 + \O
+ML/cmm/m/it/12 nQ[] [] m[]R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m[]mP[] \OT1/cmr
+/m/n/12 + \OML/cmm/m/it/12 m[]nQ[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[] \OT1/
+cmr/m/n/12 + \OML/cmm/m/it/12 m[]nQ[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[] \O
+T1/cmr/m/n/12 + \OML/cmm/m/it/12 kQ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--64
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--91
+[][]
+ []
+
+[110]
+
+LaTeX Warning: Reference `sign_security' on page 111 undefined on input line 17
+0.
+
+[111]
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
+[][]
+ []
+
+[112])) [113]
+\openout2 = `parameter_sizes.aux'.
+
+ (./parameter_sizes.tex
+
+LaTeX Warning: Reference `footdir@194' on page 114 undefined on input line 2.
+
+
+LaTeX Warning: Reference `footdir@195' on page 114 undefined on input line 2.
+
+
+LaTeX Warning: Reference `sign_security' on page 114 undefined on input line 12
+.
+
+
+LaTeX Warning: Reference `footdir@196' on page 114 undefined on input line 29.
+
+
+LaTeX Warning: Reference `footdir@197' on page 114 undefined on input line 29.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--46
+[][]
+ []
+
+
+Overfull \hbox (17.31941pt too wide) detected at line 49
+\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 mP[] \OT1/cmr/m/n/12 + \O
+ML/cmm/m/it/12 nQ[] [] m[]R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m[]mP[] \OT1/cmr
+/m/n/12 + \OML/cmm/m/it/12 m[]nQ[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[] \OT1/
+cmr/m/n/12 + \OML/cmm/m/it/12 m[]nQ[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[] \O
+T1/cmr/m/n/12 + \OML/cmm/m/it/12 kQ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--64
+[][]
+ []
+
+
+LaTeX Warning: Reference `footdir@198' on page 114 undefined on input line 64.
+
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [114
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 80--91
+[][]
+ []
+
+[115]
+
+LaTeX Warning: Reference `sign_security' on page 116 undefined on input line 17
+0.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
+[][]
+ []
+
+[116]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [117] [118]
+\openout2 = `vocab.aux'.
+
+ (./vocab.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 4--34
+[][]
+ []
+
+[119
+
+
+
+]
+\openout2 = `footer.aux'.
+
+ (./footer.tex (./index.bbl [120
+
+
+
+
+]
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+ [121]
+[122]) [123] (./index.aux (./isogeny.aux) (./pre_digital_signature.aux)
+(./ds_on_isogeny.aux) (./security_of_ds_on_isogeny.aux)
+(./algorithmic_aspect.aux) (./parameter_sizes.aux) (./vocab.aux) (./footer.aux)
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `index.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `index.out':
+(rerunfilecheck)             Before: DBCB47D85A2F9F5E80D211B864F1DCEB;7003
+(rerunfilecheck)             After:  7F3CD9C8AB38E1510C6679C7D0FE53EF;16071.
+ ) )
+(\end occurred when \iftrue on line 36 was incomplete)
+(\end occurred when \ifnum on line 36 was incomplete) 
+Here is how much of TeX's memory you used:
+ 28649 strings out of 476919
+ 593788 string characters out of 5821840
+ 996743 words of memory out of 5000000
+ 47922 multiletter control sequences out of 15000+600000
+ 416000 words of font info for 150 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 132i,17n,133p,4833b,1354s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on index.pdf (123 pages).

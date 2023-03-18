@@ -1,0 +1,47 @@
+% =============================================================================
+% from glossary package
+xindy -L persian-variant1 -C utf8 -I xindy -M %.xdy -t %.glg -o %.gls %.glo | 
+xindy -L persian-variant1 -C utf8 -I xindy -M %.xdy -t %.blg -o %.bls %.blo |
+xindy -L english -C utf8 -I xindy -M %.xdy -t %.alg -o %.acr %.acn
+% =============================================================================
+
+
+\begin{itemize}
+	
+	\item[] {}
+	\begin{flalign}
+	i=0 \Rightarrow \quad 
+	E_1 = E_0 / \langle \ell^{4}R_0 \rangle , \quad 
+	\phi_0 : E_0 \rightarrow E_1 , \quad 
+	R_1 = \phi_0(R_0)
+	\end{flalign}
+	
+	
+	\item[] {}
+	\begin{flalign}
+	i=1 \Rightarrow \quad 
+	E_2 = E_1 / \langle \ell^{3}R_1 \rangle , \quad 
+	\phi_1 : E_1 \rightarrow E_2 , \quad 
+	R_2 = \phi_1(R_1)
+	R_2 = \phi_1(\phi_0(R_0))
+	\end{flalign}
+	
+	
+	
+	
+\end{itemize}
+
+
+
+% triangle diagram
+\begin{tikzcd}[row sep=3em,column sep=3em]
+	x_1(k+1) \arrow[d,swap,"x_1(k)"] & \\
+	x_2(k+1) \arrow[d,swap,"x_2(k)"] &
+	x_4(k+1)
+	\arrow[lu,swap,"x_1(k)"]
+	\arrow[l,swap,"x_2(k)"]
+	\arrow[l,loop right,"x_4(k)"]
+	\arrow[dl,shift right]
+	\\
+	x_3(k+1) \arrow[ru,shift right,swap,"x_3(k)"]
+\end{tikzcd}

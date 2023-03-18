@@ -1,0 +1,739 @@
+\documentclass[12pt,a4paper]{article}
+%\documentclass[12pt]{book}
+\let\latinrm\mathrm
+
+
+\usepackage{amsthm,amsmath,amssymb,mathtools}
+\usepackage{lipsum}
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage[noend]{algpseudocode}
+\usepackage{tikz-cd}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{cite}
+\renewcommand{\algorithmiccomment}[1]{$\triangleright$ #1}
+\usetikzlibrary{matrix}
+%\usepackage[demo]{graphicx}
+% \usepackage{caption}
+
+
+\linespread{1.5} 
+
+\usepackage{xepersian}
+\settextfont{XBZar}
+\setdigitfont{XBZar}
+
+%\title{امضای دیجیتال مقاوم کوانتومی بر اساس همسانی های بین خم های سوپرسینگولار}
+%\author{مصطفی قربانی
+%	\\[1cm]{ استاد راهنما: دکتر حسن دقیق}}
+%\author{مصطفی قربانی}
+\date{}
+
+
+\theoremstyle{plain}
+\newtheorem{theorem}{قضیه}
+\newtheorem{lemma}{لم}
+\newtheorem{proposition}{گزاره}
+\theoremstyle{definition}
+\newtheorem{definition}{تعریف}[section]
+\newtheorem{example}{مثال}
+\newtheorem{prob}{سوال}
+\theoremstyle{remark}
+\newtheorem{corollary}{نتیجه}
+\newtheorem{remark}{ملاحظه}
+
+
+\begin{document}
+	%\maketitle
+	%\tableofcontents
+	%\listoffigures
+	%\listoftables	
+	%\chapter{پیش نیازها}\label{prerequesties}	
+	%\begin{theorem}\end{theorem}
+
+\newpage
+\section{\bf امضای غیرقابل انکار}\label{Undeniable_signature}\cite{undeniable}
+\LTRfootnote{Undeniable Signature}
+% تعریفات از مقاله universally Compasable Undeniable Signature
+مفهوم طرح امضای غیرقابل انکار اولین بار توسط چام و آنترپن
+\cite{undeniable_chaum}
+معرفی شده است. در یک طرح امضای غیرقابل انکار، امضاکننده یک امضای غیرقابل انکار
+$\sigma$
+را تولید می‌کند که توسط هرکسی(به صورت عمومی) قابل تایید نمی‌باشد. بنابراین تاییدکننده برای تایید امضا نیاز به تعاملاتی با امضاکننده دارد که برای تایید یا انکار امضای 
+$\sigma$
+، امضاکننده یک اثبات دانش صفر را بوسیله اجرای پروتکل تایید یا پروتکل انکار انجام می‌دهد.
+\\
+طرح امضای غیرقابل انکار موجب پیدایش برنامه‌های کاربردی فراوانی در رمزنگاری شده است. از جمله‌ی این کاربردها می‌توان به نرم‌افزار صدور مجوز
+\LTRfootnote{licensing software}
+،پول الکترونیکی
+\LTRfootnote{electronic cash}
+، رای‌گیری الکترونیکی
+\LTRfootnote{voting electronic}
+و حراج الکترونیکی
+\LTRfootnote{electronic auction}
+اشاره کرد.
+% ادامه‌ی مقاله که به مباحث امنیت آن برمی‌گردد در اینجا ذکر نکردم.
+\subsection{\bf تعریف}
+مطابق با تعریف رسمی ارائه شده در
+\cite{convertibleـundeniable}
+، یک طرح امضای غیرقابل انکار بوسیله چندتایی زیر مشخص شده است:
+$$ \Sigma = \big( G_{sign} , Sign , Check , Sim , \pi_{con} , \pi_{dis} \big). $$
+
+الگوریتم
+$G_{sign}$
+تولیدکننده کلید، الگوریتم
+$Sign$
+یک الگوریتم امضا، الگوریتم 
+$Check$
+یک الگوریتم بررسی اعتبار، الگوریتم
+$Sim$
+یک شبیه‌ساز امضا ، پروتکل 
+$\pi_{con}$
+یک پروتکل تایید و پروتکل 
+$\pi_{dis}$
+یک پروتکل انکار می‌باشد.
+\\
+الگوریتم تولیدکننده کلید 
+$G_{sign}$
+، یک الگوریتم چندجمله‌ای احتمالاتی 
+\LTRfootnote{PPT(probabilistic polynomial-time)}
+می‌باشد که خروجی آن زوج کلید
+$(vk,sk)$
+می‌باشد که 
+$vk$
+یک کلید تاییدساز و 
+$sk$
+یک کلید امضا 
+\RTLfootnote{فرض می‌کنیم که 
+$sk$
+به طور منحصر به فرد توسط
+$vk$
+تعیین شده است.
+}
+می‌باشد.
+\\
+ فضای پیام 
+$\mathcal{M}$
+توسط 
+$vk$
+مشخص شده است.
+\\
+ الگوریتم امضای
+$Sign$
+، یک الگوریتم چندجمله‌ای احتمالاتی می‌باشد که امضای 
+$\sigma$
+را از طریق پیام 
+$m \in \mathcal{M}$
+ و کلید امضای 
+$sk$
+ به عنوان ورودی‌هایش تولید می‌کند.
+ \\
+  اگر 
+$\sigma$
+ ، خروجی الگوریتم
+$Sign(sk,m)$
+با رشته تصادفی 
+$r$
+باشد، آنگاه زوج 
+$(m,\sigma)$
+را معتبر می‌گوییم، در غیر این صورت آن را نامعتیر می‌گوییم.
+\\
+الگوریتم بررسی اعتبار
+$Check$
+، یک الگوریتم چندجمله‌ای قطعی می‌باشد که:
+$$ Check \big( (vk,m),\sigma \big) = 
+	\begin{cases}
+		1 & \text{
+			اگر خروجی زوج 
+			$(m,\sigma)$
+			معتبر باشد.
+				} \\
+			0 & \text{
+				اگر خروجی زوج 
+				$(m,\sigma)$
+				نامعتبر باشد.
+			}
+	\end{cases}
+$$
+
+الگوریتم شبیه‌ساز
+$Sim$
+یک الگوریتم چندجمله‌ای احتمالاتی است که یک امضای شبیه‌سازی‌شده‌ی
+${\sigma}' = Sim(vk,m)$
+را تولید می‌کند.
+
+یک طرح امضای غیرقابل انکار باید ویژگی‌های غیرقابل جعلی
+\LTRfootnote{unforgeability}
+و غیرقابل دسترس‌پذیری (نامرئی بودن)
+\LTRfootnote{invisibility}
+را داشته باشد. غیرقابل دسترس‌پذیری به معنای آن است که برای یک پیام 
+$m$
+، دریافت‌کننده نمی‌تواند متوجه شود که 
+$\sigma$
+، یک امضای معتبر است یا یک امضای شبیه‌سازی شده. این بدین معنی است که دریافت کننده نمی‌تواند اعتبار زوج 
+$(m,\sigma)$
+را به تنهایی تایید کند.درعوض با همکاری امضاکننده می‌توان اعتبار و عدم اعتبار زوج 
+$(m,\sigma)$
+را با اجرای پروتکل تاییدساز
+$\pi_{con}$
+و پروتکل انکار
+$\pi_{dis}$
+و خروجی متناظر با آن پروتکل به دست آورد. پروتکل
+$\pi_{con}$ 
+، یک سیستم اثبات دانش صفر تعاملی
+\LTRfootnote{zero-knowledge interactive proof system (ZKIP)}
+روی یک زبان 
+$L_0 = \{ (vk,m,\sigma) | 
+\text{زوچ 
+$(m,\sigma)$
+معتبر هستند
+}
+\}$
+ و پروتکل 
+$\pi_{dis}$
+، یک سیستم اثبات دانش صفر تعاملی روی یک زبان 
+
+$L_1 = \{ (vk,m,\sigma) | 
+\text{زوچ 
+	$(m,\sigma)$
+	معتبر نیستند
+}
+\}$
+می‌باشد. هر سیستم اثبات دانش صفر تعاملی باید ویژگی‌های تمامیت ، صداقت و اثبات صفر را داشته باشند.
+
+
+\subsection{امنیت امضای غیرقابل انکار}
+\LTRfootnote{Security of Undeniable Signature}
+\\
+\textbf{غیرقابل جعل بودن .}
+مفهوم غیرقابل جعل بودن را توسط بازی زیر بین یک چالشگر 
+$\mathcal{CH}$\LTRfootnote{challenger}
+ و یک متخاصم
+$\mathcal{A}$\LTRfootnote{adversary}
+تشریح می‌کنیم.
+\begin{enumerate}
+	
+	\item 
+	چالشگر یک زوج کلید
+	$(vk,sk)$
+	را به صورت تصادفی تولید و کلید تاییدساز 
+	$vk$
+	را به متخاصم می‌دهد.
+	\item 
+	% for i = 1,2, ... , q_s for some q_s
+	برای 
+	$i = 1,2,\cdots, q_s$
+	وبرای بعضی
+	$q_s$
+	،متخاصم برای امضای پیام 
+	$m_i$
+	درخواستی به اوراکل امضا می‌فرستد و متعاقبا یک امضای
+	$\sigma_i$
+	دریافت می‌کند.
+	\item 
+	در پایان، متخاصم زوج جعلی 
+	$(m^*,{\sigma}^*)$
+	را به عنوان خروجی نمایش می‌دهد.
+\end{enumerate}
+متخاصم این اجازه را دارد تا درخواست
+$(m_j,\sigma_j)$
+را در مرحله دوم برای اوراکل تایید/انکار ارسال کند و پاسخ اوراکل تایید/انکار به صورت زیر می‌باشد:
+\begin{itemize}
+	\item 
+	اگر 
+	$(m_j,\sigma_j)$
+	یک زوج معتبر باشد آنگاه اوراکل بیت
+	$\mu = 1$
+	را به عنوان خروجی برمی‌گرداند و اجرای پروتکل تایید
+	$\pi_{con}$ 
+	را با متخاصم در جریان می‌گذارد.
+	
+	\item 
+	در غیر‌اینصورت، اوراکل بیت
+	$\mu = 0$
+	را برمی‌گرداند و بر این اساس پروتکل انکار 
+	$\pi_{dis}$
+	را با متخاصم در جریان می‌گذارد.
+\end{itemize}
+
+گوییم متخاصم در جعل(قوی) موفق شده است اگر زوج
+$(m^*,\sigma^*)$
+معتبر باشد و این زوج در میان زوج‌های 
+$(m_i,\sigma_i)$
+تولید شده در میان درخواست‌های امضای اوراکل نباشد.
+\RTLfootnote{
+گوییم متخاصم در جعل(ضعیف) موفق شده است اگر
+$(m^*,\sigma^*)$
+معتبر باشد و 
+$m^*$
+هرگز برای امضا از اوراکل درخواست نشده باشد.غیرقابل‌جعلی(ضعیف) و غیرقابل‌جعلی(قوی) یکی هستند اگرالگوریتم امضا قطعی باشد و درنتیجه برای هر پیام یک امضای منحصر به فرد وجود دارد که به درستی تایید می‌شود.
+}
+\\
+\textbf{تعریف ۱ .}
+گوییم 
+$\Sigma$
+قویا غیرقابل‌جعل است اگر احتمال آنکه متخاصم در جعل(قوی) موفق شود (برای هر متخاصم چندجمله‌ای احتمالاتی در بازی بالا)، ناچیز باشد.
+\\
+\\
+\textbf{غیرقابل دسترس‌پذیری . }
+دامگارد و پدرسون بوسیله بازی زیر بین چالشگر و متخاصم در 
+\cite{convertibleـundeniable}
+به معرفی مفهوم غیرقابل‌دسترس‌پذیری پرداخته‌اند.
+\begin{enumerate}
+	
+	\item 
+	چالشگر یک زوج کلید
+	$(vk,sk)$
+	را به صورت تصادفی تولید و کلید تاییدساز 
+	$vk$
+	را به متخاصم می‌دهد.
+	\item 
+	متخاصم مجاز است یک سری درخواست برای امضای پیام
+	$m_i$
+	به اوراکل امضا ارسال کند و امضای
+	$\sigma_i$
+	را دریافت کند.
+	\item 
+	% at some point
+	در برخی موارد، متخاصم یک پیام 
+	$m^*$
+	را انتخاب و برای چالشگر ارسال می‌کند.
+	\item 
+	چالشگر یک بیت تصادفی 
+	$b$
+	را انتخاب می‌کند.
+	\item 
+	اگر 
+	$b = 1$
+	آنگاه چالشگر امضای واقی
+	$\sigma^* = Sign(sk,m^*)$
+	را محاسبه می‌کند. در غیر اینصورت امضای ساختگی(جعلی) 
+	$\sigma^* = Sim(sk,m^*)$
+	را محاسبه می‌کند. و در ادامه امضای
+	$\sigma^*$
+	را برای متخاصم برمی‌گرداند.
+	\item 
+	متخاصم دوباره چند درخواست امضا را انجام می‌دهد.
+	\item 
+	در انتهای بازی، متخاصم یک بیت حدسی 
+	$b'$
+	را برمی‌گرداند.
+	\\
+	متخاصم مجاز است در مراحل ۲ و ۵ ، درخواست 
+	$(m_j,\sigma_j)$
+	را برای اوراکل تایید/انکار ارسال کند.
+\end{enumerate}
+
+با این حال متخاصم اجازه ندارد تا چالش 
+$(m^*,\sigma^*)$
+را در مرحله‌ی ۵ از اوراکل تایید/انکار درخواست کند. همچنین متخاصم مجاز نیست تا درخواست
+$m^*$
+را برای اوراکل امضا ارسال کند.
+\\
+\textbf{تعریف ۲ .}
+گوییم
+$\Sigma$
+غیرقابل‌دسترس است اگر برای هر متخاصم با زمان چندجمله‌ای احتمالاتی در بازی بالا،‌  احتمال آن‌که 
+$b = b'$
+خیلی ناچیز باشد.
+
+\subsection{پروتکل}\LTRfootnote{Protocol}
+
+برای پیاده‌سازی این طرح امضا به روی خم‌های سوپرسینگولار لازم است تا عدد اول 
+$p$
+ به فرم 
+ $\ell_A^{e_A} \ell_M^{e_M} \ell_C^{e_C} \cdot f \pm 1$
+داشته باشیم و سپس یک خم بیضوی سوپرسینگولار 
+$E$
+روی میدان
+$\mathbb{F}_{p^2}$
+معرفی کنیم چنانکه مرتبه‌ی خم (
+$\# E(\mathbb{F}_{p^2})$
+)
+، مقدار
+$(\ell_A^{e_A} \ell_M^{e_M} \ell_C^{e_C})^2$
+را عاد کند.همچنین لازم است تا مولدهای زیرگروه‌های 
+$E[\ell_A^{e_A}]$
+،
+$E[\ell_M^{e_M}]$
+و
+$E[\ell_C^{e_C}]$
+را که به ترتیب شامل
+$\{ P_A,Q_A\}$
+،
+$\{P_M,Q_M\}$
+و
+$\{P_C,Q_C\}$
+می‌باشد را نیز به دست آوریم.در طراحی این پروتکل معمولا نقاط
+$\{ P_A,Q_A\}$
+ساخت کلید و نقاط
+$\{P_M,Q_M\}$
+برای داده‌ی پیام و نقاط
+$\{P_C,Q_C\}$
+برای داده‌های تعهد مورد استفاده قرار می‌گیرند.
+% ادامه مقاله جائو با مقاله اصلی همپوشانی دارد و یکبار باید ذکر شود !!!!!!!!!!!!!!
+
+امضاکننده به صورت تصادفی دو عدد صحیح
+$m_A$
+و
+$n_A$
+را از میدان
+$\mathbb{Z} / \ell_A^{e_A} \mathbb{Z}$
+انتخاب می‌کند(
+$m_A,n_A \in \mathbb{Z} / \ell_A^{e_A} \mathbb{Z}$
+)
+. و سپس زیرگروه
+$K_A = [m_A]P_A + [n_A]Q_A$
+را به دست آورده و خم بیضوی
+$E_A = E/ \langle K_A \rangle$
+را محاسبه می‌کند. در انتها همسانی
+$\phi_A$
+که از
+$E$
+به
+$E_A$
+می‌باشد (
+$ \phi_A : E \rightarrow E_A $
+) را محاسبه می‌کند.
+\begin{itemize}
+	\item[]{\bf پارامترهای عمومی:}
+	$p$
+	،
+	$E$
+	،
+	$\{ P_A,Q_A\}$
+	،
+	$\{P_M,Q_M\}$
+	،
+	$\{P_C,Q_C\}$
+	و  تابع هش 
+	$H : \{0,1\}^* \rightarrow \mathbb{Z}$
+	.
+	\item[]{\bf کلید عمومی :  }
+	$E_A$
+	،
+	$\phi_A(P_C)$
+	و
+	$\phi_A(Q_C)$
+	.
+	\item[]{\bf کلید خصوصی :   }
+	$m_A$
+	و
+	$n_A$
+	.
+\end{itemize}
+
+برای امضای پیام
+$M$
+لازم است تا با استفاده از تابع هش به مقدار
+$h = H(M)$
+دست بیابیم. هسته همسانی به شکل
+$K_M  = P_M + [h]Q_M$
+خواهد بود. در ادامه امضاکننده همسانی‌های زیر 
+
+\begin{itemize}
+	
+	\item 
+	$\phi_M : E \rightarrow E_M = E / \langle K_M \rangle $
+	
+	\item 
+	$\phi_{M,AM} : E_M \rightarrow E_{AM} = E_M / \langle \phi_{M}(K_A) \rangle$
+	
+	\item 
+	$\phi_{A,AM} : E_A \rightarrow E_{AM} = E_A / \langle \phi_A(K_M) \rangle $
+\end{itemize}
+همراه با نقاط کمکی 
+$\phi_{M,AM}(\phi_M(P_C))$
+و
+$\phi_{MaAM}(\phi_M(Q_C))$
+محاسبه می‌کند.امضاکننده سپس این دو نقطه کمکی را به همراه خم بیضوی
+$E_{AM}$
+به عنوان امضا منتشر می‌کند.(شکل 
+\ref{fig:sig_generation}
+).
+
+پروتکل تایید به شکل زیر انجام می‌شود.در ابتدا خم 
+$E_{AM}$
+را بدون افشای همسانی‌های که آن را ساخته‌اند تایید می‌کنیم، برای این منظور خم
+$E_{AM}$
+را بوسیله همسانی 
+$\phi_C$
+کور می‌کنیم و سپس همسانی‌های کورشده را نمایش می‌دهیم‌.(شکل 
+\ref{fig:confirmation}
+).
+
+\begin{enumerate}
+	\item 
+	امضاکننده به صورت مخفی اعداد تصادفی
+	$m_C$
+	و
+	$n_C$
+	را از میدان 
+	$\mathbb{Z} / \ell_C^{e_C} \mathbb{Z}$
+	انتخاب می‌کند(
+	$m_C , n_C \in \mathbb{Z} / \ell_C^{e_C} \mathbb{Z}$
+	)
+	، و نقطه
+	$K_C = [m_C]P_C + [n_C]Q_C$
+	را به همراه خم‌ها و همسانی‌های شکل ۳ محاسبه می‌کند.چنانچه در شکل گویاست داریم:
+	\begin{itemize}
+		\item 
+		$E_C = E / \langle K_C \rangle$
+		
+		\item 
+		$E_{MC} = E_M / \langle \phi_M(K_C) \rangle = E_C / \langle \phi_C(K_M) \rangle$
+		
+		\item 
+		$E_{AC} = E_A / \langle \phi_A(K_C) \rangle = E_C / \langle \phi_C(K_A) \rangle$
+		
+		\item 
+		$E_{AMC} = E_{MC} / \langle \phi_{C,MC}(K_A) \rangle $
+	\end{itemize}
+
+	\item 
+	امضاکننده خم‌های
+	$E_C$
+	،
+	$E_{AC}$
+	،
+	$E_{MC}$
+	،
+	$E_{AMC}$
+	و همچنین 
+	$ker(\phi_{C,MC})$
+	را به عنوان تعهد منتشر می‌کند.
+	
+	\item 
+	تاییدکننده به طور تصادفی بیت 
+	$b \in \{0,1\}$
+	را انتخاب می‌کند.
+	
+	\item 
+	اگر 
+	 $b=0$
+	 آنگاه امضاکننده 
+	 $ker(\phi_C)$
+	 را منتشر می‌کند. تاییدکننده به همراه کلیدعمومی امضاکننده 
+	 $ker(\phi_{A,AC})$
+	 را محاسبه می‌کند.با دانستن
+	 $ker(\phi_M)$
+	 ،تاییدکننده می‌تواند 
+	 $\phi_{M,MC}$
+	 را محاسبه کند. همچنین تاییدکننده با کمک نقاط کمکی داده شده در امضا ، می‌تواند
+	 $\phi_{AM,AMC}$
+	 را محاسبه کند. تاییدکننده همچنین هر نگاشت همسانی‌ بین دو خم اشاره شده در تعهد را بررسی می‌کند.
+% why ?????
+با اطلاع از 
+$ker(\phi_C)$
+، همچنین به طور مستقل می‌تواند 
+$\phi_{C,MC}$
+را دوباره محاسبه و بررسی کند که آیا با تعهد ارائه شده همخوانی دارد یا نه.
+% please understand the two last statement and write to persian correctly !!!!!
+
+\item 
+اگر
+$b=1$
+آنگاه امضاکننده 
+$ker(\phi_{C,AC})$
+را نمایش می‌دهد. در ادامه تاییدکننده همسانی‌های 
+$\phi_{MC,AMC}$
+و
+$\phi_{AC,AMC}$
+را محاسبه می‌کند و نگاشت‌های 
+$\phi_{C,AC}$
+،
+$\phi_{MC,AMC}$
+و
+$\phi_{AC,AMC}$
+را بین دو خم معرفی شده متناظر در تعهد را بررسی می‌کند.
+\end{enumerate}
+
+
+حال به تشریح پروتکل انکار می‌پردازیم. فرض کنید امضاکننده یک امضای جعلی
+$(E_F,F_P,F_Q)$
+برای پیام 
+$M$
+ارائه کند، که 
+$E_F$
+خم جعلی 
+$E_{AM}$
+،
+$\{F_P,F_Q\}$
+نقاط کمکی جعلی به‌جای نقاط معادل کمکی صحیح
+$\phi_{M,AM}(\phi_M(P_C))$
+و
+$\phi_{M,AM}(\phi_M(Q_C))$
+باشند.پس طبق طرح ارائه شده ما موظفیم تا خم
+$E_F$
+را بدون افشای خم
+$E_{AM}$
+، انکار کنیم.بدین منظور قبل از به دست آوردن خم
+$E_{AMC}$
+،
+خم
+$E_{AM}$
+را کور می‌کنیم. و  اطلاعاتی به اندازه کافی در اختیار تاییدکننده می‌گذاریم تا بتواند خم
+$E_{FC}$
+را محاسبه و رابطه
+$E_{FC} \ne E_{AMC}$
+را بررسی کند.
+\begin{enumerate}
+	\item 
+	امضاکننده به صورت مخفی اعداد تصادفی 
+	$m_C$
+	و
+	$n_C$
+	را از میدان
+	$\mathbb{Z} / \ell_C^{e_C} \mathbb{Z}$
+	انتخاب می‌کند، و 
+	$K_C = [m_C]P_C + [n_C]Q_C$
+	را به همراه تمام خم‌ها و همسانی‌های نشان داده شده در شکل 
+\ref{fig:disavowal}
+	 محاسبه می‌کند.
+	
+	\item 
+	امضاکننده خم‌های
+	$E_C$
+	،
+	$E_{AC}$
+	،
+	$E_{MC}$
+	و
+	$E_{AMC}$
+	را به همراه 
+	$ker(\phi_C)$
+	به عنوان تعهد منتشر می‌کند.
+	
+	\item 
+	تاییدکننده یک بیت تصادفی
+	$b \in \{0,1\}$
+	انتخاب می‌کند.
+	
+	\item 
+	اگر
+	$b=0$
+	آنگاه امضاکننده 
+	$ker(\phi_C)$
+	را منتشر می‌کند. در ادامه تاییدکننده همسانی‌های 
+	$\phi_C$
+	،
+	$\phi_{M,MC}$
+	،
+	$\phi_{A,AC}$
+	را به‌همراه همسانی
+	$\phi_F : E_F \rightarrow E_{FC} = E_F / \langle [m_C]F_P + [n_C]F_Q \rangle$
+	محاسبه کرده و هر نگاشت همسانی بین دوخ مشخص شده در در تعهد را بررسی می‌کند. تاییدکننده به طور مستقل همسانی
+	$\phi_{C,MC}$
+	را محاسبه و بررسی می‌کند که آیا خروجی، همان همسانی ذکرشده در تعهد می‌باشد یا خیر
+	
+	\item 
+	اگر 
+	$b=1$
+	آنگاه امضاکننده 
+	$ker(\phi_{C,AC})$
+	را منتشر می‌کند و در ادامه تاییدکننده همسانی‌های 
+	$\phi_{AC,AMC}$
+	و
+	$\phi_{MC,AMC}$
+	را محاسبه و بررسی میکند که آیا این همسانی‌ها نگاشتی به خم
+	$E_{AMC}$
+	دارند یا خیر.
+\end{enumerate}
+
+% ==============================================================================================
+% figure !! for demontrate Signature generation
+\begin{figure}[H] 
+	\begin{center}
+		
+		%\begin{tikzcd}
+			% & E_A \arrow[dd , dashed , "\phi_{A,AM}" description]   \\
+			% & E \arrow[dd , "\phi_{M}" description ]
+			% & & E_{AM} \\
+			% & E_M \arrow[ur , dashed , "\phi_{M,AM}" description] \\
+		    % ----------------------------------------------------------------------
+			% E \arrow{d} {\phi_M} \arrow{r}{\phi_A} & E_A \arrow{d} {\phi_{A,AM}}\\ 
+			% E_M \arrow{r} {\phi_{M,AM}} & E_{AM}			
+			
+			
+		%\end{tikzcd}
+		
+		\caption{ تولید امضا}
+		\label{fig:sig_generation}
+		
+	\end{center}
+\end{figure}
+% ==============================================================================================
+
+% ==============================================================================================
+% figure !! for demonstrate Confirmation protocol
+\begin{figure}[H] 
+	\begin{center}
+		
+		\begin{tikzcd}[row sep=scriptsize, column sep=scriptsize]
+			& E_A  \arrow[rr ,dashed, "\phi_{A,AC}" description] 
+			\arrow[dd , dashed , "\phi_{A,AM}" description] 
+			& & E_{AC} \arrow[dd , dashed , "\phi_{AC,AMC}" description] \\
+			E \arrow[ur, dashed , "\phi_A" description]
+			\arrow[rr, crossing over , dashed , "\phi_C" description]
+			\arrow[dd , "\phi_{M}" description]
+			& & E_C \arrow[ur , dashed , "\phi_{C,AC}" ]  \\
+			& E_{AM} \arrow[from=dl  , dashed ,  "\phi_{M,AM}" description]
+			\arrow[rr , dashed , "\phi_{AM,AMC}" description]
+			& & E_{AMC} \\
+			E_M \arrow[rr , dashed , "\phi_{M,MC}" description]
+			& & E_{MC} \arrow[from=uu, crossing over , "\phi_{C,MC}"  description ,near start]
+			\arrow[ur , dashed , "\phi_{MC,AMC}" description]\\
+		\end{tikzcd}
+		
+		\caption{پروتکل تایید}
+		\label{fig:confirmation}
+		
+	\end{center}
+\end{figure}
+% ==============================================================================================
+
+% ==============================================================================================
+% figure !! for demonstrate disavowal protocol
+\begin{figure}[H] 
+	\begin{center}
+		
+		\begin{tikzcd}[row sep=scriptsize, column sep=scriptsize]
+			& E_A  \arrow[rr ,dashed, "\phi_{A,AC}" description] 
+				   \arrow[dd , dashed , "\phi_{A,AM}" description] 
+			& & E_{AC} \arrow[dd , dashed , "\phi_{AC,AMC}" description] \\
+			E \arrow[ur, dashed , "\phi_A" description]
+			  \arrow[rr, crossing over , dashed , "\phi_C" description]
+			  \arrow[dd , "\phi_{M}" description]
+			& & E_C \arrow[ur , dashed , "\phi_{C,AC}" ]  \\
+			& E_{AM} \arrow[from=dl  , dashed ,  "\phi_{M,AM}" description]
+				\arrow[rr , dashed , "\phi_{AM,AMC}" description]
+		    & & E_{AMC} \\
+			E_M \arrow[rr , dashed , "\phi_{M,MC}" description]
+			& & E_{MC} \arrow[from=uu, crossing over , "\phi_{C,MC}"  description ,near start]
+				\arrow[ur , dashed , "\phi_{MC,AMC}" description]\\
+			\end{tikzcd}
+		
+		\caption{پروتکل انکار}
+		\label{fig:disavowal}
+		
+	\end{center}
+\end{figure}
+% ==============================================================================================
+
+\subsection{اثبات‌های امنیت}\LTRfootnote{Security Proofs}
+\subsubsection{پروتکل تایید}\LTRfootnote{Confirmation Protocol}
+\subsubsection{پروتکل انکار}\LTRfootnote{Disavowal Protocol}
+
+
+% ======================================================================
+% Refrences
+% ======================================================================
+\newpage
+\setLTRbibitems
+% \resetlatinfont
+\bibliographystyle{plain}
+\bibliography{ref.bib}
+
+\end{document}

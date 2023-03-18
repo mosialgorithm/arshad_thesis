@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.0.1}{امضای‌دیجیتال}{}% 1
+\BOOKMARK [1][-]{section.0.2}{اثبات دانش صفر هویت}{}% 2
+\BOOKMARK [1][-]{section.0.3}{ساخت آنره}{}% 3
+\BOOKMARK [2][-]{subsection.0.3.1}{پروتکل زیگما}{section.0.3}% 4
+\BOOKMARK [2][-]{subsection.0.3.2}{سیستم اثبات غیرتعاملی }{section.0.3}% 5
+\BOOKMARK [2][-]{subsection.0.3.3}{ساخت آنره}{section.0.3}% 6
+\BOOKMARK [3][-]{subsubsection.0.3.3.1}{الگوریتم اثبات‌کننده}{subsection.0.3.3}% 7
+\BOOKMARK [3][-]{subsubsection.0.3.3.2}{الگوریتم تاییدکننده}{subsection.0.3.3}% 8
+\BOOKMARK [2][-]{subsection.0.3.4}{امضا براساس اثبات دانش صفر غیرتعاملی }{section.0.3}% 9
+\BOOKMARK [1][-]{section.0.4}{امضای دیجیتال همسانی مبنا}{}% 10
+\BOOKMARK [2][-]{subsection.0.4.1}{الگوریتم تولیدکلید}{section.0.4}% 11
+\BOOKMARK [2][-]{subsection.0.4.2}{الگوریتم امضا}{section.0.4}% 12
+\BOOKMARK [2][-]{subsection.0.4.3}{الگوریتم تایید امضا}{section.0.4}% 13
+\BOOKMARK [1][-]{section.0.5}{امنیت}{}% 14
+\BOOKMARK [2][-]{subsection.0.5.1}{امنیت اثبات دانش صفر}{section.0.5}% 15
+\BOOKMARK [2][-]{subsection.0.5.2}{امنیت امضا}{section.0.5}% 16

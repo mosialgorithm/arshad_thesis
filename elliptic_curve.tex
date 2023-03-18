@@ -1,0 +1,899 @@
+\chapter{خم بیضوی}
+فرض کنید
+$k$
+یک میدان بوده و 
+$f(x,y)$
+یک چندجمله‌ای با ضرایب روی میدان
+$k$
+باشد، هم‌چنین فرض کنید:
+$$C = \{ (x,y) \in k^2 \mid f(x,y) = 0 \}$$
+نقطه‌ی 
+$p=(x,y) \in C$
+را نقطه‌ی تکین(منفرد) خم 
+$C$
+گوییم هرگاه:
+$\frac{\sigma f}{\sigma x} (p) = \frac{\sigma f}{\sigma y} (p) = 0 $
+درغیراینصورت 
+$p$
+را نامنفرد گوییم.
+\\
+اگر خم
+$C$
+هیچ نقطه‌ی تکینی نداشته باشد، همورا نامیده می‌شود.
+\example
+نقاط تکین خم با معادله‌ی
+$f(x,y) = y^2 - x^3 + 3x$
+را در صورت وجود بیابید.
+\\
+\begin{equation*}
+\begin{cases}
+&\frac{\sigma f}{\sigma x} = -3x+3=0 \longrightarrow x = \pm 1 \\
+&\frac{\sigma f}{\sigma y} = 2y=0 \longrightarrow y=0 
+\end{cases}
+\end{equation*}
+پس 
+$P(1,0)$
+و
+$Q(-1,0)$
+کاندیدای نقطه‌ منفرد خم هستند. اما به‌راحتی می‌توان دید که هیچ کدام از نقاط
+$P$
+و
+$Q$
+روی خم قرار ندارند پس این خم نقطه تکین ندارد و لذا هموار است.
+\\
+\definition
+فرض کنید
+$K$
+یک میدان باشد، معادله‌ی
+$$ y^2 + a_1xy + a_3 = x^3 + a_2x^2 + a_4x+a_6 $$
+که درآن
+$a_1,a_2,a_3,a_4,a_6 \in K$
+یک معادله‌ی وایرشتراس نامیده می‌شود.
+\\
+\definition
+هر خم هموار با معادله‌ی وایرشتراس بالا یک خم بیضوی نامیده می‌شود.
+\\
+\definition
+معادله‌ی
+$y^2 = x^3+Ax+B$
+معادله‌ی وایرشتراس کوتاه نامیده می‌شود.
+\\
+نمودار خم با معادله‌ی وایرشتراس
+$y^2 = x^3+1$
+در میدان
+$R$
+به صورت زیر است:
+% fiqure for elliptiC Curve
+\\
+\definition
+مبین یک خم وایرشتراس کوتاه شده به‌صورت زیر می‌باشد:
+$$\Delta = -(4A^3+27B^2)$$
+\remark
+خم
+$y^2 = x^3+Ax+B$
+هموار است اگر و تنها اگر 
+$\Delta \ne 0$.
+بنابراین یک خم بیضوی را می‌توان خمی با معادله‌ی وایرشتراس بالا و مبین غیرصفر تعریف کرد.
+\section{
+$j$-پایای یک خم
+}
+در این بخش فرض می‌کنیم 
+$k$
+میدانی با مشخصه‌ی مخالف ۲ و ۳ است. همچنین فرض می‌کنیم خم
+$E$
+دارای معادله‌ی وایرشتراس به فرم زیر باشد:
+$$E:y^2=x^3+Ax+B$$
+مبین این خم عبارت است از:
+$$ \Delta = -(4A^3+27B^2) $$
+اکنون $j$-پایای خم
+$E$
+را به‌صورت زیر تعریف می‌کنیم:
+$$ j(E) = -1728\frac{4A^3}{\Delta} $$
+\\
+\example
+فرض کنید
+$$ E_1 : y^2 = x^3+x+1 $$
+$$ E_2: y^2=x^3+4x+8 $$
+در این صورت:
+\\
+در خم
+$E_1$:
+$$A=1,B=1 \Longrightarrow \Delta(E_1) = -(4A^3+27B^2) = -31 $$
+$$ j(E_1)=-1728\frac{4A^3}{\Delta} = -1728\frac{4}{-31} = \frac{6912}{31} $$
+در خم
+$E_2$:
+$$A=4,B=8 \Longrightarrow \Delta(E_2) = -(4A^3+27B^2) = -1984 $$
+$$ j(E_2)=-1728\frac{4A^3}{\Delta} = -1728\frac{256}{-1984} = \frac{442368}{1984} $$
+همان‌گونه که ملاحظه می‌شود، خم‌های 
+$E_1$
+و
+$E_2$
+دارای
+$j$-پایای برابرند.
+\section{یکریختی خم‌های بیضوی}
+دو خم 
+$E:y^2=x^3+Ax+B$
+و
+$E': y^2=x^3+A'x+B'$
+را یکریخت گوییم هرگاه
+$\mu \in {\bar{K}}^*$
+موجود باشد که
+$$ A'={\mu}^4A ~,~ B'={\mu}^6B $$
+\example
+فرض کنید
+$E$
+و
+$E'$
+دو خم روی 
+$Q$
+با معادلات زیر باشند:
+$$ E:y^2=x^3+3x+5 ~,~  E':y^2=x^3+12x+40$$
+دراینصورت
+$A=3$
+،
+$B=5$
+،
+$A'=12$
+،
+$B'=40$
+، با قرار دادن
+$\mu = \sqrt{2}$
+داریم:
+$$ A'={\mu}^4 ~,~ B'={\mu}6B$$
+پس خم‌های 
+$E$
+و
+$E'$
+روی
+$Q$
+ یکریخت نیستند درحالیکه روی
+$\bar{Q}$
+(یا روی 
+$R$
+یا روی
+$Q\sqrt{2}$)
+یکریخت‌اند.
+\theorem
+فرض کنید
+$K$
+یک میدان با مشخصه‌ی مخالف ۲ و ۳ باشد و 
+$$ E:y^2=x^3+Ax+B ~,~ E': y^2=x^3+A'x+B' $$
+دو خم روی
+$K$
+باشند، در اینصورت:
+\begin{center}
+$E$
+و
+$E'$
+یکریخت‌اند اگر وتنها اگر 
+$j(E)=J'(E')$
+\end{center}
+\refproof
+اثبات را بیاورم؟؟؟؟
+\section{درون‌ریختی خم‌های بیضوی}
+
+اگر
+$E$
+یک خم بیضوی روی میدان
+$K$
+باشد انگاه
+$\varphi : E(\bar{K}) \rightarrow E(\bar{K})$
+یک درون‌ریختی است هرگاه:
+\begin{enumerate}
+\item{
+$\varphi$
+توسط تابع گویا بیان شده باشد، یعنی:
+$\varphi(x,y) = (\varphi_1(x,y) , \varphi_2(x,y) )$
+که درآن
+$\varphi_1$
+و
+$\varphi_2$
+توابع گویا هستند.
+}
+\item{
+برای هر
+$P$
+و
+$Q$
+:
+$\varphi(P+Q) = \varphi(P)+\varphi(Q)$
+}
+\item{
+$\varphi(\infty) = \infty$
+}
+\end{enumerate}
+
+\section{خم‌های بیضوی روی میدان‌های متناهی}
+
+فرض کنید
+$E$
+یک خم بیضوی
+$y^2=x^3+Ax+B$
+روی میدان
+$\mathbb{F}_q$
+باشد. در این‌صورت 
+$\mathbb{F}_q$-نقاط
+روی خم عبارتنداز:
+$$
+ E(\mathbb{F}_q) = \{ (x,y) \in \mathbb{F}_q \times \mathbb{F}_q | y^2=x^3+Ax+B \} 
+\Cup \{ \infty \}
+$$
+واضح است که:
+$$ E(\mathbb{F}_q) \subseteq (\mathbb{F}_q \times \mathbb{F}_q) \Cup \{ \infty \} $$
+و چون مجموعه‌ی سمت راست متناهی (از مرتبه‌ی
+$q^2+1$)
+است لذا مجموعه‌ی چپ یعنی
+$E(\mathbb{F}_q)$
+نیز متناهی است. پس:
+$\# E(\mathbb{F}_q) \leq q^2+1$
+بنابراین خم‌های بیضوی روی میدان‌های متناهی، متناهی اند.
+\\
+قضیه هسه کرانی برای تعداد عناصر 
+$E(\mathbb{F}_q)$
+معرفی می‌کند.
+\theorem
+اگر
+$E$
+یک خم بیضوی روی میدان
+$\mathbb{F}_q$
+باشد آنگاه:
+$$ | q+1- \#E(\mathbb{F}) | \leq 2\sqrt{q} $$
+به‌عبارت دیگر:
+$$ -2\sqrt{q} \leq \# E(\mathbb{F}_q)  -(q+1) \leq +2\sqrt{q}$$
+$$ (q+1)-2\sqrt{q} \leq \# E(\mathbb{F}_q) \leq (q+1)+2\sqrt{q}$$
+$$ (\sqrt{q}-1)^2 \leq \# E(\mathbb{F}_q) \leq (\sqrt{q}+1)^2$$
+\example
+خم بیضوی با معادله‌ی وایرشتراس
+$y^2=x^3+Ax+B$
+روی میدان
+$\mathbb{F}_{49}$
+را درنظر بگیرید. در این‌صورت:
+$$ 49+1-2\sqrt{49} \leq \# E(\mathbb{F}_{49}) \leq 49+1+2\sqrt{49}$$
+$$ 36 \leq \# E(\mathbb{F}_{49}) \leq 64$$
+
+\definition\label{ss}
+$a_q=q+1- \# E(\mathbb{F}_q)$
+، اثر خم نامیده می‌شود.
+\\
+\\
+بنا به قضیه‌ هسه،
+$|a_q| \leq 2\sqrt{q}$
+یعنی
+$ -2\sqrt{q} \leq a_q \leq 2\sqrt{q}$
+، بنابراین در مثال قبل:
+\\
+$-14 \leq a_{49} \leq 49$.
+\section{نقاط تابی در خم‌های بیضوی}
+
+فرض کنید
+$E$
+یک خم بیضوی روی میدان
+$\mathbb{F}_q$
+باشد. برای عدد صحیح 
+$n$
+، درون‌ریختی زیر را در نظر می‌گیریم:
+$$ [n]: E(\bar{\mathbb{F}_q}) \longrightarrow E(\bar{\mathbb{F}_q}) $$
+هسته‌ی این درون‌ریختی عبارت است از:
+$ker([n]) = \{ p \in E(\bar{\mathbb{F}_q}) ~|~ [n]p=\infty \}$
+این مجموعه با 
+$E[n]$
+نمایش داده می‌شود، به‌عبارت دیگر:
+$$ E[n] = \{ p \in E(\bar{\mathbb{F}_q}) ~|~ np=\infty \} $$
+به‌راحتی می‌توان دید
+$E[n]$
+زیرگروهی از 
+$E(\bar{\mathbb{F}_q})$
+است.
+\theorem 
+اگر
+$E$
+یک خم بیضوی رو میدان
+$\mathbb{F}_q$(
+$q$
+توانی از یک عدد اول) باشد آنگاه برای هر
+$n$، 
+$$ \# E({\mathbb{F}}_{q^n}) = q+1-({\alpha}^n +{\beta}^n) $$
+که در آن
+$\alpha$
+و
+$\beta$
+ریشه‌های چندجمله‌ای زیر هستند:
+$$x^2-a_qx+q=0$$
+
+\example
+فرض کنید خم
+$E$
+روی میدان
+$\mathbb{F}_4$
+توصیف شده باشد و 
+$\# E(\mathbb{F}_4) = 6$.
+حال می‌خواهیم
+$\# E(\mathbb{F}_{16})$
+را به‌دست آوریم، بنابراین:
+$$q=4, a_q=q+1- \# E(\mathbb{F}_q) \Longrightarrow a_4=4+1-6=-1$$
+در ادامه ریشه‌های چندجمله‌ای 
+$x^2-a_qx+q=0$
+را به‌دست می‌آوریم:
+$$ x^2-(-1)x+4=0 \longrightarrow x^2+x+4=0, ~~ \Delta=b^2-4aC=1-16=-15 $$
+\begin{equation*}
+\text{ریشه‌ها}= \frac{-b \pm \sqrt{\Delta}}{2a} = \frac{-1 \pm \sqrt{-15}}{2} \Longrightarrow
+\begin{cases}
+& \alpha = \frac{-1- \sqrt{-15}}{2} \\
+& \beta = \frac{-1+ \sqrt{-15}}{2} 
+\end{cases}
+\end{equation*}
+بنابراین
+$$ \# E(\mathbb{F}_{16}) = 16+1 -({\alpha}^2 + {\beta}^2) = 16+1-(-7)=24 $$
+
+\theorem 
+فرض کنید 
+$E$
+یک خم بیضوی روی میدان 
+$k$
+باشد، دراینصورت:
+\begin{enumerate}
+\item{
+اگر
+$char(k)=0$
+یا
+$char(k)=p$
+که در آن
+$p \nmid n$،
+آنگاه:
+$$E[n] \cong \mathbb{Z}_n \times \mathbb{Z}_n$$
+}
+
+\item{
+اگر
+$char(k)=p$
+و
+$p \mid n$،
+آنگاه:
+$$E[n] \cong \mathbb{Z}_m \times \mathbb{Z}_m$$
+یا
+$$E[n] \cong \mathbb{Z}_n \times \mathbb{Z}_m$$
+که در آن
+$n=p^e.m$
+و
+$(p,m)=1$
+}
+\end{enumerate}
+\example
+فرض کنید
+$E$
+یک خم بیضوی روی میدان
+$\mathbb{F}_9$
+باشد. ساختار
+$E[5]$،
+$E[6]$
+و
+$E[675]$
+را به‌صورت زیر به‌دست می‌آوریم:
+\\
+محاسبه‌ی
+$E[5]$:
+\\
+$char(\mathbb{F}_9)=3$
+ بنابراین چون
+ $3 \nmid 5$
+ لذا:
+ $$ E[5] \cong \mathbb{Z}_5 \times \mathbb{Z}_5 $$
+ محاسبه‌ی
+ $E[6]$:
+ \\
+$$
+p=3 \mid 6=n \longrightarrow n=3 \times 2 \Rightarrow
+E[6] \cong \mathbb{Z}_2 \times \mathbb{Z}_2 ~\text{یا}~ \mathbb{Z}_6 \times \mathbb{Z}_2
+$$ 
+
+محاسبه‌ی
+$E[675]$:
+\\
+$$
+p=3 \mid 675=n \longrightarrow n=3^3 \times 25 \Rightarrow
+E[675] \cong \mathbb{Z}_{25} \times \mathbb{Z}_{25} ~\text{یا}~ \mathbb{Z}_{675} \times \mathbb{Z}_{25}
+$$ 
+\example
+فرض کنید
+$k$
+میدانی با مشخصه‌ی
+$p$
+باشد. ساختار
+$E[p]$
+به‌صورت زیر خواهد بود:
+\\
+$$ n=p ~,~ p \mid n \Longrightarrow n=p^1 \times 1 \Longrightarrow m=1 $$
+\begin{equation*}
+\begin{cases}
+& E[p] \cong  \mathbb{Z}_1 \times \mathbb{Z}_1 = \{(0,0)\} \Longrightarrow E[p]=\{ \infty \}\\
+& E[p] \cong  \mathbb{Z}_p \times \mathbb{Z}_p
+\end{cases}
+\end{equation*}
+\\
+\definition
+اگر
+$E$
+یک خم بیضوی روی میدان
+$k$
+(با مشخصه‌ی
+$p$)
+باشد و 
+$E[p]={\infty}$،
+آنگاه خم را سوپرسینگولار گوییم. در غیراینصورت ($E[p] \cong \mathbb{Z}_p$)
+خم را معمولی گوییم.
+\theorem 
+فرض کنید 
+$E$
+یک خم بیضوی روی میدان
+$ \mathbb{F}_q$
+($q$
+توانی از عدد اول
+$p$)
+باشد، دراینصورت:
+$$ a_q \equiv 0 ~ (\mod p) ~~~\text{اگر و تنها اگر}~~~ \text{سوپرسینگولار است} E	 $$
+\\
+\remark
+$$a_q = q+1- \# E(\mathbb{F}_q)$$
+\begin{align*}
+a_q \equiv 0 (\mod p) 
+&	\iff q+1- \#E(\mathbb{F}_q) \equiv 0 (\mod p) \\
+&	\iff 1- \#E(\mathbb{F}_q) \equiv 0 (\mod p)	\\
+&	\iff \#E(\mathbb{F}_q) \equiv 1 (\mod p)
+\end{align*}
+\\
+\section{زوجیت وایل}
+فرض کنید 
+$k$
+یک میدان و 
+$n$
+عددی صحیح باشد بطوریکه 
+$char(k)=0$
+یا
+$char(k)=p\nmid n$
+همچنین فرض کنید
+$E:y^2=x^3+Ax+B$
+خم بیضوی روی میدان
+$k$
+باشد. در اینصورت نگاشت
+$$ e_n : E[n] \times E[n] \longrightarrow \mu_n $$
+با خواص زیر وجود دارد:
+\begin{enumerate}
+\item{
+$e_n$
+دوخطی است. بدین معنی که:
+%==========================
+\begin{enumerate}
+\item{
+$\forall S_1,S_2,T \in E[n] ~:~ e_n(S_1+S_2,T)=e_n(S_1,T)en(S_2,T)  $
+}
+
+\item{
+$\forall S,T_1,T_2 \in E[n] ~:~ e_n(S,T_1+T_2)=e_n(S,T_1)en(S,T_2)  $
+}
+\end{enumerate}
+%===========================
+
+\lemma
+اگر
+$S \in E[n]$
+آنگاه
+$e_n(S,\infty)=1$
+}
+\item{
+$e_n$
+ناتباهیده است. بدین معنی که :
+\begin{enumerate}
+\item{
+اگر
+$S \in E[n]$
+چنان باشد که برای هر
+$T \in E[n]$،
+$en(S,T)=1 $
+آنگاه
+$ S=\infty$.
+}
+\item{
+
+اگر
+$T \in E[n]$
+چنان باشد که برای هر
+$S \in E[n]$،
+$en(S,T)=1 $
+آنگاه
+$ T=\infty$.
+}
+\end{enumerate}
+}
+
+\item{
+برای هر
+$S \in E[n]$:
+$$ e_n(S,S)=1 $$
+}
+
+\item{
+برای هر
+$S,T \in E[n]$:
+$$ e_n(T,S)=e_n(S,T)^{-1} $$
+}
+
+\item{
+اگر
+$\sigma : \bar{k} \rightarrow \bar{k}$
+یک خودریختی باشد آنگاه برای هر
+$S,T \in E[n]$:
+$$ e_n(\sigma(S), \sigma(T)) = \sigma(e_n(S,T)) $$
+}
+
+\item{
+اگر
+$\varphi : E(\bar{k}) \rightarrow E(\bar{k})$
+یک درون‌ریختی جداپذیر باشد، آنگاه برای هر
+$S,T \in E[n]$:
+$$ e_n(\varphi(S),\varphi(T)) = e_n(S,T)^{deg \varphi}$$
+}
+\end{enumerate}
+\definition
+نگاشت
+$ e_n : E[n] \times E[n] \longrightarrow \mu_n $
+تعریف شده در بالا را زوجیت وایل می‌گوییم.
+\pagebreak
+\section{همسانی }
+فرض کنید 
+$E_1 : {y_1}^2 = {x_1}^2+A_1x_1+B_1$
+و
+$E_2 : {y_2}^2 = {x_2}^2+A_2x_2+B_2$
+دو خم تعریف شده روی میدان
+$k$
+با مشخصه‌ی مخالف ۲ و ۳ باشند، در این‌صورت یک همسانی از
+$E_1$
+به
+$E_2$
+یک همریختی به شکل
+$\varphi : E_1(\bar{k}) \longrightarrow E_2(\bar{k})$
+است که توسط توابع گویا تعریف شده باشد. بنابراین توابع گویای 
+$R_1(x,y)$
+و
+$R_2(x,y)$
+وجود دارند بطوریکه:
+$$ \varphi : (R_1(x,y), R_2(x,y)) $$
+یک همسانی را می‌توان به‌شکل 
+$\varphi : (r_1(x),r_2(x)y)$
+که
+$r_1(x)$
+و
+$r_2(x)$
+توابع گویا هستند نیز نشان داد.
+\remark
+$\varphi$
+یک همریختی است یعنی:
+$$ \forall P,Q \in E_1(\bar{X}) ~:~ \varphi(P+Q)=\varphi(P)+ \varphi(Q) $$
+\remark
+اگر
+$E_1=E_2$
+آنگاه، همسانی یک درون‌ریختی ناصفر خواهد بود.
+\\
+\definition
+فرض کنید 
+$\alpha = (r_1(x), r_2(x)y)$
+و ضرایب 
+$r_1$
+و
+$r_2$
+در
+$k$
+قرار داشته باشند، گوییم 
+$\alpha$
+روی
+$k$
+تعریف شده است:
+\begin{itemize}
+\item{
+اگر 
+$r_1(x) = \frac{p(x)}{q(x)}$
+، آنگاه:
+$ deg(\alpha) = max \{ deg(p), deg(q) \} $
+}
+
+\item{
+اگر 
+${r_1}'(x) \ne 0$
+آنگاه گفته می‌شود که
+$\alpha$
+جداپذیر است.
+}
+\end{itemize}~
+\\
+\theorem {
+فرض کنید 
+$\alpha : E_1(\bar{k}) \longrightarrow E_2(\bar{k})$
+یک همسانی باشد، در این‌صورت:
+\begin{enumerate}
+\item{
+اگر
+$\alpha$
+جداپذیر باشد:
+$$ deg(\alpha) = \# ker(\alpha) $$
+}
+\item{
+اگر
+$\alpha$
+جداناپذیر باشد:
+$$ deg(\alpha) \geq \# ker(\alpha) $$
+}
+
+\end{enumerate} 
+\remark
+$ker(\alpha)$
+ یا هسته همسانی یک زیرگروه متناهی از 
+$E_1(\bar{k})$
+ است.
+}
+\\
+\section{دوگان همسانی}
+\theorem 
+فرض کنید 
+$\alpha : E_1 \longrightarrow E_2$
+یک همسانی باشد. در این‌صورت همسانی
+$\hat{\alpha} : E_2 \longrightarrow E_1$
+وجود دارد بطوریکه:
+$$ \hat{\alpha} \circ  \alpha = [deg(\alpha)] $$
+به 
+$\hat{\alpha}$
+دوگان همسانی
+$\alpha$
+گفته می‌شود. البته قابل ذکر است که
+$\hat{\alpha}$
+یکتاست و 
+$$deg(\alpha) = deg(\hat{\alpha})$$
+و همچنین :
+$$ \alpha \circ \hat{\alpha} = [deg(\alpha)]$$
+\\
+\subsection{خواص دوگان همسانی}
+اگر
+$\varphi : E_1 \longrightarrow E_2$
+و
+$\psi : E_2 \longrightarrow E_3$
+دو همسانی باشند، آنگاه :
+\begin{enumerate}[label=\alph*.]
+\item{
+$ \widehat{\varphi \circ \psi} = \hat{\varphi} \circ \hat{\psi}$
+}
+
+\item{
+$ \hat{ \hat{ \varphi } } = \varphi$
+}
+\item{
+$ deg(\varphi \circ \hat{ \varphi }) = (deg \varphi)^2 $
+}
+\end{enumerate}~
+\\
+\theorem 
+فرض کنید
+$E$
+یک خم بیضوی و 
+$C$
+زیرگروهی متناهی از 
+$E$
+باشد. یک خم بیضوی یکتای
+$E'$
+و یک همسانی جداپذیر
+$\varphi : E \longrightarrow E' \cong \frac{E(\bar{k})}{ker(\varphi)}$
+ وجود دارد بطوریکه:
+$$ ker(\varphi) = C $$
+
+\proposition
+اگر
+$\ell$
+یک عدد اول متباین با مشخصه‌ی میدان باشد آنگاه 
+$E[\ell]$
+دارای 
+$\ell + 1$
+زیرگروه از مرتبه‌ی
+$\ell$
+خواهد بود. هر یک از این زیرگروه‌ها با توجه به قضیه‌ی قبل می‌تواند هسته‌ی یک همسانی باشند:
+$$ E[\ell] = \{ P \in E(\bar{K}) | \ell P = \infty \} $$
+\refproof
+می‌دانیم 
+$E[\ell] \cong \mathbb{Z}_{\ell} \times \mathbb{Z}_{\ell}$
+، بنابراین 
+${\ell}^2$
+عضو دارد. از آنجایی که
+$\mathbb{Z}_{\ell} \times \mathbb{Z}_{\ell}$
+دوری نیست، همه‌ی عناصر غیربدیهی 
+$E[\ell]$
+از مرتبه‌ی 
+$\ell$
+هستند( زیرا تنها 
+$\ell$
+،
+${\ell}^2$
+را می‌شمارد)، بنابراین با حذف عنصر بدیهی
+$E[\ell]$
+، 
+${\ell}^2-1$
+عنصر باقی می‌ماند. هر زیرگروه
+$E[\ell]$
+شامل عنصر بدیهی است، عنصر بدیهی را از هر گروه حذف می‌کنیم. هر زیرگروه 
+$\ell -1$
+عنصر غیربدیعی خواهد داشت، از آنجایی که
+$\frac{{\ell}^2-1}{{\ell}-1} = \ell + 1$
+، پس
+$E[\ell]$
+،
+${\ell}+1$
+زیرگروه از مرتبه‌ی
+$\ell$
+خواهد داشت.
+\\
+\proposition
+اگر
+$\ell$
+یک عدد اول متباین با مشخصه‌ی میدان باشد، هر همسانی که هسته‌ی آن زیرگروهی از
+$E[\ell]$
+باشد از درجه‌ی 
+$\ell$
+خواهد بود و به آن یک 
+$\ell$-همسانی
+می‌گوییم.
+\\
+\theorem
+اگر
+$\phi : E_1 \longrightarrow E_2$
+یک همسانی باشد آنگاه
+$E_1$
+سوپرسینگولار است اگر وتنها اگر
+$E_2$
+سوپرسینگولار باشد ( و بالعکس).
+\\
+\theorem[تیت]
+دو خم بیضوی
+$E_1$
+و
+$E_2$
+روی میدان متناهی
+$\mathbb{F}_q$
+همسان هستند اگر و تنها اگر
+$$ \# E_1(\mathbb{F}_q) = \# E_2(\mathbb{F}_q) $$
+به‌عبارت دیگر دو خم بیضوی
+$E_1$
+و
+$E_2$
+را همسان گوییم هرگاه یک همسانی از
+$E_1$
+به
+$E_2$
+وجود داشته باشد.
+\corollary
+با استفاده از قضیه‌ی تیت می‌توان در زمان چندجمله‌ای مشخص کرد که آیا دو خم روی میدان متناهی
+$\mathbb{F}_q$
+، همسان هستند یا خیر.
+\\
+\subsection{فرمول ولو}
+\theorem
+فرض کنید 
+$E$
+یک خم بیضوی با معادله‌ی وایرشتراس یر روی میدان
+$k$
+باشد:
+$$ y^2+a_1xy+a_3y = x^3+a_2x^2+a_4x+a_6 $$
+و
+$C$
+یک زیرگروه متناهی از
+$E(\bar{k})$
+باشد. در اینصورت یک خم بیضوی
+$E'$
+و یک همسانی جداپذیر 
+$\alpha$
+از
+$E$
+به
+$E'$
+وجود دارد بطوریکه:
+$$C=ker(\alpha)$$
+با استفاده از مراحل زیر می‌توان خم
+$E'$
+و همسانی
+$\alpha$
+را به‌دست آورد:
+\begin{enumerate}
+\item{
+قرار می‌دهیم:
+$$ F(x,y) = x^3+a_2x^2+a_4x+a_6 - y^2+a_1xy+a_3y $$
+و برای هر
+$Q=(x_a,y_a) \in c$
+که
+$Q \ne \infty$
+تعریف می‌کنیم:
+$$ g_Q^x = F_x(Q) = 3x_Q^2+2a_2x_Q+a_4-a_1y_Q$$
+$$ g_Q^x = F_y(Q) = -2y_Q-a_1x_Q-a_3 $$
+\\
+\begin{equation*}
+V_Q = 
+\begin{cases}
+& g_Q^x ~~, 2Q=\infty ~ \text{اگر} \\
+& 2g_Q^x - a_1g_Q^y ~~,2Q \ne \infty ~ \text{اگر} 
+\end{cases}
+\end{equation*}
+\\
+$$ u_Q = {\Big( g_Q^y \Big)}^2 $$
+}
+\item{
+فرض کنید
+$C_2$
+نقاطی از مرتبه‌ی ۲ در
+$C$
+باشند، 
+$R \subseteq C$
+را طوری انتخاب می‌کنیم که یک اجتماع مجزا به شکل زیر داشته باشیم:
+$$ C = {\infty} \cup C_2 \cup R \cup (-R) $$
+به‌عبارت دیگر هر نقطه‌ی
+$p,-p \in C$
+که تابی از مرتبه‌ی ۲ نباشند را درنظر می‌گیریم، دقیقا یکی از آنها را در
+$R$
+قرار می‌دهیم.
+\\
+حال فرض کنید
+$S=R \cup C_2$
+قرار می‌دهیم:
+$$ v = \sum\limits^{}_{Q \in S} (v_Q) ~~,~~  w = \sum\limits^{}_{Q \in S}(u_Q+x_Qv_Q) $$
+در این‌صورت خم
+$E'$
+دارای معادله‌ی :
+$$Y^2+A_1XY+A_3Y = X^3+A_2X^2+A_4X+A_6$$
+است که در آن:
+$$ A_1=a_1 ~,~ A_2=a_2 ~,~ A_3=a_3 ~,~ A_4=a_4-5v ~,~ A_6=a_6-(a_1^2+4a_2)v-7w $$
+}
+
+\item{
+همسانی
+$\alpha : E_{(x,y)} \longrightarrow E'_{(X,Y)}$
+که در آن:
+$$ X = x + \sum\limits^{}_{Q \in S} \big(\frac{v_Q}{x-x_Q} + \frac{u_Q}{(x-x_Q)^2} \big) $$
+$$
+ Y = y - \sum\limits^{}_{Q \in S} \big( v_Q \cdot \frac{2y+a_1x+a_3}{(x-x_Q)^3} + v_Q \cdot \frac{a_1(x-x_Q)+y-y_Q}{(x-x_Q)^2} + 
+\frac{a_1u_Q - g^{x}_{Q} g^y_Q}{(x-x_Q)^2} \big) 
+$$
+را تعریف می‌کنیم. در واقع
+$$ \alpha : E \longrightarrow E' \cong p \rightsquigarrow \big(X(p),Y(p) \big) $$
+که در آن :
+$$ X(p) = x(p) + \sum\limits^{}_{Q \in C} [~x(P+Q) - x(Q)~] $$
+$$ Y(p) = y(p) + \sum\limits^{}_{Q \in C} [~y(P+Q) - y(Q)~] $$
+}
+\end{enumerate}~
+\\
+\example
+فرض کنید 
+$E:x^3+ax^2+bx$
+یک خم بیضوی تعریف شده روی میدان 
+$k$
+باشد. نقطه‌ی 
+$(0,0)$
+یک نقطه‌ای از مرتبه‌ی ۲ روی این خم است. بنابراین
+$C=\{ \infty , (0,0) \}$
+زیرگروهی از
+$E(\bar{k})$
+است. می‌خواهیم یک همسانی از
+$E$
+به یک خم بیضوی
+$E'$
+تعریف کنیم که هسته‌ی آن
+$C$
+باشد. بنابراین داریم:
+$$ C_2 = \{ (0,0) \} ~,~ R = \phi ~,~ S={(0,0)} $$
+$$ F(x,y) = x^3+ax^2+bx-y^2 $$
+$$ g^x_Q = F_x(Q) = 3x^2_Q + 2ax_Q + b = b $$
+$$ g^y_Q  = F_y(Q) = -2y_Q = 0$$
+$$ v_Q = g^x_Q = b ~~,~~ u_Q=(g^y_Q)^2 = 0 $$
+$$ v = \sum\limits^{}_{Q \in S} v_Q = b ~~,~~ w = \sum\limits^{}_{Q \in S}(u_Q + x_Qv_Q) = 0$$
+$$ Y^2+A_1XY+A_3Y = X^3+A_ 2X^2+A_4X+A_6$$
+$$ A_1=a_1=0 ~~,~~ A_2=a_2=a ~~,~~ A_3=a_3=0 ~~,~~ A_4=a_4-5v = b-5b = -4b ~~,~~ A_6 = a_6-(a^2_1 + 4a_2)v-7w = -4b^2$$
+$$ \Longrightarrow E': Y^2=X^3+a_2X^2-4bY-4ab $$
+$$  $$
+\begin{equation*}
+\alpha : E \longrightarrow E' \cong (x,y) \longrightarrow (X,Y) \Rightarrow
+\begin{cases}
+X = x + \frac{b}{x} \\
+Y = y - \frac{by}{x^2}
+\end{cases}
+\end{equation*}
